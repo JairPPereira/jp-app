@@ -13,7 +13,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
 
-  return (<center>
+  return (
+  <center>
+    
     <div>
       <div className='home'>
       <div className="nave">
@@ -23,7 +25,7 @@ export default function Home() {
       
         <nav>
         <p><br /></p>
-        <p><br /></p>
+  
         
         <Card>
       <Card.Body><Link to="/Daaz"><Button variant="primary" size="lg" width="100%">
@@ -55,15 +57,13 @@ export default function Home() {
         Radios
         </Button></Link></Card.Body>
     </Card>
-
+    <Card>
+      <Card.Body>O site JPP APP é uma plataforma para assistir filmes e séries online, Esta página funciona com base nas últimas tecnologias lançadas nesta geração voltada ao uso de inteligência artificial, robots e API de dados, ou seja, não hospedamos vídeos em nossos servidores, apenas, de forma automática, indexamos os arquivos que são capturados pela web, nos tornando completamente legais e dentro da lei. O uso desta plataforma é de total responsabilidade do usuário. Qualquer violação de direitos autorais, entre em contato com o distribuidor. Em caso de dúvidas ou reclamações sobre o conteúdo, entre em contato conosco para obter a devida ajuda.</Card.Body>
+    </Card>
           
   
         </nav>
-        <Container fluid="md">
-      <Row>
-        <Col>O site JPP APP é uma plataforma para assistir filmes e séries online, Esta página funciona com base nas últimas tecnologias lançadas nesta geração voltada ao uso de inteligência artificial, robots e API de dados, ou seja, não hospedamos vídeos em nossos servidores, apenas, de forma automática, indexamos os arquivos que são capturados pela web, nos tornando completamente legais e dentro da lei. O uso desta plataforma é de total responsabilidade do usuário. Qualquer violação de direitos autorais, entre em contato com o distribuidor. Em caso de dúvidas ou reclamações sobre o conteúdo, entre em contato conosco para obter a devida ajuda.</Col>
-      </Row>
-    </Container>
+
     <Container fluid="md">
       <Row>
         <Col>Ajude a manter nosso site</Col>
