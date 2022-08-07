@@ -57,7 +57,6 @@ import Ghostland from './components/pages/Ghostland';
 import Homemaranha from './components/pages/Homemaranha';
 import Hoteldosdinossauros from './components/pages/Hoteldosdinossauros';
 import Jesuskid from './components/pages/Jesuskid';
-import Mariasangrenta from './components/pages/Mariasangrenta';
 import Megalodon from './components/pages/Megalodon';
 import Minhamaeeumaviagem from './components/pages/Minhamaeeumaviagem';
 import Necroterio from './components/pages/Necroterio';
@@ -220,7 +219,6 @@ function App() {
         <Route path='/557' component={Homemaranha} />
         <Route path='/839440' component={Hoteldosdinossauros} />
         <Route path='/853666' component={Jesuskid} />
-        <Route path='/mariasangrenta' component={Mariasangrenta} />
         <Route path='/523931' component={Megalodon} />
         <Route path='/82687' component={Minhamaeeumaviagem} />
         <Route path='/necroterio' component={Necroterio} />
@@ -229,10 +227,10 @@ function App() {
         <Route path='/457837' component={Ocladasadagas} />
         <Route path='/314405' component={Ocontodoscontos} />
         <Route path='/77949' component={Odespertar} />
-        <Route path='/ohomemdamafia' component={Ohomemdamafia} />
-        <Route path='/olhosfamintos' component={Olhosfamintos} />
-        <Route path='/oimbativelreden' component={Oimbativelreden} />
-        <Route path='/oparamo' component={Oparamo} />
+        <Route path='/64689' component={Ohomemdamafia} />
+        <Route path='/8922' component={Olhosfamintos} />
+        <Route path='/38234' component={Oimbativelreden} />
+        <Route path='/800410' component={Oparamo} />
         <Route path='/osespecialistas' component={Ospecialistas} />
         <Route path='/tophits' component={Tophits} />
         <Route path='/vdeoclips' component={Videoclips} />
@@ -260,14 +258,14 @@ function App() {
         <Route path='/73499' component={Codinome7} />
         <Route path='/umjovememapuros' component={Umjovememapuros} />
         <Route path='/tudopraficarcomela' component={Tudopraficarcomela} />
-        <Route path='/odoadordememorias' component={Odoadordememorias} />
+        <Route path='/227156' component={Odoadordememorias} />
         <Route path='/17577' component={Atumbadodiabo} />
         <Route path='/672772' component={Jogandocomoamor} />
         <Route path='/60420' component={Loucamenteapaixonados} />
         <Route path='/417180' component={Cadaveresardm} />
         <Route path='/505579' component={Agentesduplos} />
         <Route path='/418808' component={Aslaminasdje} />
-        <Route path='/ogritodamorte' component={Ogritodamorte} />
+        <Route path='/340185' component={Ogritodamorte} />
         <Route path='/drama' component={Drama} />
         <Route path='/556018' component={Kv1} />
         <Route path='/osorrisodelaura' component={Osorrisodelaura} />
