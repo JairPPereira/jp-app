@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,36 +24,37 @@ export default function Home() {
         <nav>
         <p><br /></p>
         <p><br /></p>
-        <Link to="/Daaz"><Button variant="primary" size="lg" width="80%">
+        
+        <Card>
+      <Card.Body><Link to="/Daaz"><Button variant="primary" size="lg" width="100%">
           Filmes de A a Z
-        </Button></Link>
-        
-        <p><br /></p>
-        
-        <Link to="/Porcategoria"><Button variant="primary" size="lg" width="80%">
+        </Button></Link></Card.Body>
+    </Card>
+    <Card>
+      <Card.Body><Link to="/Porcategoria"><Button variant="primary" size="lg" width="80%">
         Filmes Por categoria
-        </Button></Link>
-        <p><br /></p>
-
-        <Link to="/Series"><Button variant="primary" size="lg" width="80%">
+        </Button></Link></Card.Body>
+    </Card>
+    <Card>
+      <Card.Body> <Link to="/Series"><Button variant="primary" size="lg" width="80%">
         Séries
-        </Button></Link>
-        <p><br /></p>
-   
-        <Link to="/Playlistyou"><Button variant="primary" size="lg" width="80%">
+        </Button></Link></Card.Body>
+    </Card>
+    <Card>
+      <Card.Body><Link to="/Playlistyou"><Button variant="primary" size="lg" width="80%">
         Playlist de filmes do youtube
-        </Button></Link>
-        <p><br /></p>
-       
-        <Link to="/TVs"><Button variant="primary" size="lg" width="80%">
+        </Button></Link></Card.Body>
+    </Card>
+    <Card>
+      <Card.Body><Link to="/TVs"><Button variant="primary" size="lg" width="80%">
         TVs
-        </Button></Link>
-        <p><br /></p>
-
-        <Link to="/Radios"><Button variant="primary" size="lg" width="80%">
+        </Button></Link></Card.Body>
+    </Card>
+    <Card>
+      <Card.Body><Link to="/Radios"><Button variant="primary" size="lg" width="80%">
         Radios
-        </Button></Link>
-        <p><br /></p>
+        </Button></Link></Card.Body>
+    </Card>
 
           
   
