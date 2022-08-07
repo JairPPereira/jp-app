@@ -32,7 +32,6 @@ import Airplanevsvolcano from './components/pages/Airplanevsvolcano';
 import Ajusticeira from './components/pages/261037';
 import Albertnobbs from './components/pages/Albertnobbs';
 import Alemdohorizonte from './components/pages/Alemdohorizonte';
-import Alendadjj from './components/pages/Alendadjj';
 import Amorzumbi from './components/pages/Amorzumbi';
 import Anjosdanoite from './components/pages/Anjosdanoite';
 import Anovaondadoimperador from './components/pages/Anovaondadoimperador';
@@ -156,6 +155,7 @@ import Acasadomedo from './components/pages/Acasadomedo';
 import Details from './components/pages/det';
 import Daaz2 from './components/pages/Daaz2';
 import Daaz3 from './components/pages/Daaz3';
+import Daaz4 from './components/pages/Daaz4';
 
 
 
@@ -195,7 +195,6 @@ function App() {
         <Route path='/261037' component={Ajusticeira} />
         <Route path='/73873' component={Albertnobbs} />
         <Route path='/271404' component={Alemdohorizonte} />
-        <Route path='/alendadjj' component={Alendadjj} />
         <Route path='/77067' component={Amorzumbi} />
         <Route path='/277' component={Anjosdanoite} />
         <Route path='/11688' component={Anovaondadoimperador} />
@@ -227,9 +226,9 @@ function App() {
         <Route path='/necroterio' component={Necroterio} />
         <Route path='/25602' component={Ninja} />
         <Route path='/ocaminho' component={Ocaminho} />
-        <Route path='/ocladasadagas' component={Ocladasadagas} />
-        <Route path='/ocontodoscontos' component={Ocontodoscontos} />
-        <Route path='/odespertar' component={Odespertar} />
+        <Route path='/457837' component={Ocladasadagas} />
+        <Route path='/314405' component={Ocontodoscontos} />
+        <Route path='/77949' component={Odespertar} />
         <Route path='/ohomemdamafia' component={Ohomemdamafia} />
         <Route path='/olhosfamintos' component={Olhosfamintos} />
         <Route path='/oimbativelreden' component={Oimbativelreden} />
@@ -272,7 +271,7 @@ function App() {
         <Route path='/drama' component={Drama} />
         <Route path='/556018' component={Kv1} />
         <Route path='/osorrisodelaura' component={Osorrisodelaura} />
-        <Route path='/ocomitedd' component={Ocomitedd} />
+        <Route path='/653024' component={Ocomitedd} />
         <Route path='/769749' component={Fundingyou} />
         <Route path='/test' component={Teste} />
         <Route path='/23520' component={Fungindodopassado} />
@@ -297,7 +296,7 @@ function App() {
         <Route path='/gossebump2' component={Gossebump2} />
         <Route path='/950' component={Aeradogelo2} />
         <Route path='/tresninjas' component={Tresninjas} />
-        <Route path='/ocavaleirod' component={Ocavaleirod} />
+        <Route path='/523366' component={Ocavaleirod} />
         <Route path='/13053' component={Boltsc} />
         <Route path='/417859' component={Gatodebotas} />
         <Route path='/zero7cr' component={Zero7cr} />
@@ -318,6 +317,7 @@ function App() {
         <Route path='476299' component={Acasadomedo} />
         <Route path='/details/:id' component={Details} />
         <Route path='/daaz2' component={Daaz2} />
+        <Route path='/daaz4' component={Daaz4} />
    
 
         

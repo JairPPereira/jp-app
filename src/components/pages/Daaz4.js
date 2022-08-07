@@ -4,14 +4,14 @@ import { Container, Movie, MovieList } from './styles';
 import Button from 'react-bootstrap/Button';
 
 
-function Daaz3() {
+function Daaz4() {
 
   const imagePath = 'https://image.tmdb.org/t/p/w500/'
 
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
-    fetch(`https://api.themoviedb.org/4/list/8212626?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    fetch(`https://api.themoviedb.org/4/list/8212880?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
     .then(response => response.json())
     .then(data => {
       setMovies(data.results)
@@ -38,7 +38,7 @@ function Daaz3() {
  
         <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
-        <Link to="/daaz2"><Button variant="primary" size="lg" width="80%">
+        <Link to="/daaz3"><Button variant="primary" size="lg" width="80%">
           Pagina anterior
         </Button></Link>
  
@@ -50,4 +50,4 @@ function Daaz3() {
   );
 }
 
-export default Daaz3;
+export default Daaz4;
