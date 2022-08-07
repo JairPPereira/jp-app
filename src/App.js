@@ -222,10 +222,10 @@ function App() {
         <Route path='/839440' component={Hoteldosdinossauros} />
         <Route path='/853666' component={Jesuskid} />
         <Route path='/mariasangrenta' component={Mariasangrenta} />
-        <Route path='/megalodon' component={Megalodon} />
-        <Route path='/minhamaeeumaviagem' component={Minhamaeeumaviagem} />
+        <Route path='/523931' component={Megalodon} />
+        <Route path='/82687' component={Minhamaeeumaviagem} />
         <Route path='/necroterio' component={Necroterio} />
-        <Route path='/ninja' component={Ninja} />
+        <Route path='/25602' component={Ninja} />
         <Route path='/ocaminho' component={Ocaminho} />
         <Route path='/ocladasadagas' component={Ocladasadagas} />
         <Route path='/ocontodoscontos' component={Ocontodoscontos} />
@@ -264,7 +264,7 @@ function App() {
         <Route path='/odoadordememorias' component={Odoadordememorias} />
         <Route path='/17577' component={Atumbadodiabo} />
         <Route path='/672772' component={Jogandocomoamor} />
-        <Route path='/loucamenteapaixonados' component={Loucamenteapaixonados} />
+        <Route path='/60420' component={Loucamenteapaixonados} />
         <Route path='/417180' component={Cadaveresardm} />
         <Route path='/505579' component={Agentesduplos} />
         <Route path='/418808' component={Aslaminasdje} />
@@ -305,7 +305,7 @@ function App() {
         <Route path='/524434' component={Eternos} />
         <Route path='/354857' component={Apenasus} />
         <Route path='/operacoese' component={Operacoese} />
-        <Route path='/momentum' component={Momentum} />
+        <Route path='/346808' component={Momentum} />
         <Route path='/trovao' component={Trovao} />
         <Route path='/pokemon' component={Pokemon} />
         <Route path='/852592' component={Centauro} />
