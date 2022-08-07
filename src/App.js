@@ -218,9 +218,9 @@ function App() {
         <Route path='/495386' component={Entreoamoreafama} />
         <Route path='/522402' component={Finch} />
         <Route path='/523638' component={Ghostland} />
-        <Route path='/homemaranha' component={Homemaranha} />
-        <Route path='/hoteldosdinossauros' component={Hoteldosdinossauros} />
-        <Route path='/Jesuskid' component={Jesuskid} />
+        <Route path='/557' component={Homemaranha} />
+        <Route path='/839440' component={Hoteldosdinossauros} />
+        <Route path='/853666' component={Jesuskid} />
         <Route path='/mariasangrenta' component={Mariasangrenta} />
         <Route path='/megalodon' component={Megalodon} />
         <Route path='/minhamaeeumaviagem' component={Minhamaeeumaviagem} />
@@ -253,7 +253,7 @@ function App() {
         <Route path='/umnegocioderisco' component={Umnegocioderisco} />
         <Route path='/umpobretaoncsb' component={Umpobretaoncsb} />
         <Route path='/333167' component={Ascensaoeqdui} />
-        <Route path='/homemaranha2' component={Homemaranha2} />
+        <Route path='/558' component={Homemaranha2} />
         <Route path='/supermurali' component={Supermurali} />
         <Route path='/terror' component={Terror} />
         <Route path='/suspense' component={Suspense} />
@@ -263,14 +263,14 @@ function App() {
         <Route path='/tudopraficarcomela' component={Tudopraficarcomela} />
         <Route path='/odoadordememorias' component={Odoadordememorias} />
         <Route path='/17577' component={Atumbadodiabo} />
-        <Route path='/jogandocomoamor' component={Jogandocomoamor} />
+        <Route path='/672772' component={Jogandocomoamor} />
         <Route path='/loucamenteapaixonados' component={Loucamenteapaixonados} />
         <Route path='/417180' component={Cadaveresardm} />
         <Route path='/505579' component={Agentesduplos} />
         <Route path='/418808' component={Aslaminasdje} />
         <Route path='/ogritodamorte' component={Ogritodamorte} />
         <Route path='/drama' component={Drama} />
-        <Route path='/kv1' component={Kv1} />
+        <Route path='/556018' component={Kv1} />
         <Route path='/osorrisodelaura' component={Osorrisodelaura} />
         <Route path='/ocomitedd' component={Ocomitedd} />
         <Route path='/769749' component={Fundingyou} />
