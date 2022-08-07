@@ -59,7 +59,6 @@ import Hoteldosdinossauros from './components/pages/Hoteldosdinossauros';
 import Jesuskid from './components/pages/Jesuskid';
 import Megalodon from './components/pages/Megalodon';
 import Minhamaeeumaviagem from './components/pages/Minhamaeeumaviagem';
-import Necroterio from './components/pages/Necroterio';
 import Ninja from './components/pages/Ninja';
 import Ocaminho from './components/pages/Ocaminho';
 import Ocladasadagas from './components/pages/Ocladasadagas';
@@ -228,7 +227,6 @@ function App() {
         <Route path='/853666' component={Jesuskid} />
         <Route path='/523931' component={Megalodon} />
         <Route path='/82687' component={Minhamaeeumaviagem} />
-        <Route path='/necroterio' component={Necroterio} />
         <Route path='/25602' component={Ninja} />
         <Route path='/ocaminho' component={Ocaminho} />
         <Route path='/457837' component={Ocladasadagas} />
@@ -238,10 +236,10 @@ function App() {
         <Route path='/8922' component={Olhosfamintos} />
         <Route path='/38234' component={Oimbativelreden} />
         <Route path='/800410' component={Oparamo} />
-        <Route path='/osespecialistas' component={Ospecialistas} />
+        <Route path='/49021' component={Ospecialistas} />
         <Route path='/tophits' component={Tophits} />
         <Route path='/vdeoclips' component={Videoclips} />
-        <Route path='/osmercenarios2' component={Osmercenarios2} />
+        <Route path='/76163' component={Osmercenarios2} />
         <Route path='/psicopataamericano2' component={Psicopataamericano2} />
         <Route path='/re1sident' component={Re1sident} />
         <Route path='/residentevilbem' component={Residentevilbem} />
@@ -308,7 +306,7 @@ function App() {
         <Route path='/pedrocoelho2' component={Pedrocoelho2} />
         <Route path='/524434' component={Eternos} />
         <Route path='/354857' component={Apenasus} />
-        <Route path='/operacoese' component={Operacoese} />
+        <Route path='/118683' component={Operacoese} />
         <Route path='/346808' component={Momentum} />
         <Route path='/trovao' component={Trovao} />
         <Route path='/pokemon' component={Pokemon} />
@@ -317,7 +315,7 @@ function App() {
         <Route path='/scooby' component={Scooby} />
         <Route path='/reileao' component={Reileao} />
         <Route path='/245842' component={Afilhadorei} />
-        <Route path='/otrapaceiro' component={Otrapaceiro} />
+        <Route path='/79465' component={Otrapaceiro} />
         <Route path='/deencontrosam' component={Deencontrosam} />
         <Route path='476299' component={Acasadomedo} />
         <Route path='/details/:id' component={Details} />

@@ -1,51 +1,49 @@
-import React from 'react';
-import '../../App.css';
-import {Link } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Container, Movie, MovieList } from './styles';
+import Button from 'react-bootstrap/Button';
 
-export default function Comedia() {
+
+function Comedia() {
+
+  const imagePath = 'https://image.tmdb.org/t/p/w500/'
+
+  const [movies, setMovies] = useState([])
+
+  useEffect(() => {
+    fetch(`https://api.themoviedb.org/4/list/8212917?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    .then(response => response.json())
+    .then(data => {
+      setMovies(data.results)
+    })
+  }, [])
 
   return (
-    <>
-      <h1 className='comedia'>
 
-        <nav>
-      <p><br /></p>
-      <p class="barNav">
-      <Link to="./Ajusticeira">A justiceira</Link>
+  <Container>
+      <MovieList>
+      {movies.map(movie => {
+        return (
+          <Movie key={movie.id}>
+            <Link to={`/details/${movie.id}`}>
+              <img src={`${imagePath}${movie.poster_path}`} alt={movie.title}/>
+            </Link>
+            
+            <span>{movie.title}</span>
 
-      <Link to="./Chef">Chef</Link>
+          </Movie>
+        )
+      })}
+      </MovieList>
+     <center>
+        <div class="btn-group" role="group" aria-label="Exemplo básico">
 
-      <Link to="./Deencontrosam">
-      <img
-            src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j4R88TeetyCmY2pwGqkn5stNIa7.jpg"
-            alt="De encontro com o amor"
-          />
-        </Link>
-
-      <Link to="./Minhamaeeumaviagem">Minha mãe é uma viagem</Link>
-
-      <Link to="./Otrapaceiro">
-      <img
-            src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mYgicNd1CENL4BfEsrBnAO6dekc.jpg"
-            alt="O trapaceiro"
-          /></Link>
-
-      <Link to="./Tudopraficarcomela">Tudo pra ficar com ela</Link>
-
-      <Link to="./Ummotoristaemapuros">Um motorista em apuros</Link>
-
-      <Link to="./Umjovememapuros">Um jovem em apuros</Link>
-
-      <Link to="./Umpobretaoncsb">Um pobretão na Casa Branca</Link>
-      </p>
-
-     
-      </nav></h1>
-
-    </>
-        
-        
-         
+  <Link to="/comedia"><Button variant="primary" size="lg" width="80%">
+          Proxima pagina
+        </Button></Link>
+</div></center>
+    </Container>
   );
 }
 
+export default Comedia;

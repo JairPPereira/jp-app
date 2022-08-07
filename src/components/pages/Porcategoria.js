@@ -30,7 +30,7 @@ export default function Porcategoria() {
         </Button></Link>
 
         <p><br /></p>
-      <Link to="./Comedia"><Button variant="primary" size="lg" width="80%">
+      <Link to="./comedia"><Button variant="primary" size="lg" width="80%">
       Comedia
         </Button></Link>
      
