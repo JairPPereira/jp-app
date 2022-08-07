@@ -1,57 +1,49 @@
-import React from 'react';
-import '../../App.css';
-import {Link } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Container, Movie, MovieList } from './styles';
+import Button from 'react-bootstrap/Button';
 
-export default function Acao() {
+
+function Acao() {
+
+  const imagePath = 'https://image.tmdb.org/t/p/w500/'
+
+  const [movies, setMovies] = useState([])
+
+  useEffect(() => {
+    fetch(`https://api.themoviedb.org/4/list/8212908?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    .then(response => response.json())
+    .then(data => {
+      setMovies(data.results)
+    })
+  }, [])
 
   return (
-    <>
-      <h1 className='acao'>
 
-        <nav>
-      <p><br /></p>
-      <Link to="./Ascensaoeqdui">Ascensão e queda de um império</Link>
-      <p><br /></p>
-      <Link to="./Atravessia">A travessia</Link>
-      <p><br /></p>
-      <Link to="./Batalhadosimperios">Batalha do Imperios</Link>
-      <p><br /></p>
-      <Link to="./Bloodrayne3">Bloodrayne 3</Link>
-      <p><br /></p>
-      <Link to="./Codinome7">Codinome Cassius 7</Link>
-      <p><br /></p>
-      <Link to="./Distrito13o">Distrito 13 o ultimato</Link>
-      <p><br /></p>
-      <Link to="./Fugindodopassado">Fugindo do passado</Link>
-      <p><br /></p>
-      <Link to="./Homemaranha">Homem Aranha</Link>
-      <p><br /></p>
-      <Link to="./Momentum">Momentum</Link>
-      <p><br /></p>
-      <Link to="./Ninja">Ninja</Link>
-      <p><br /></p>
-      <Link to="./Ocladasadagas">O Clã das adagas</Link>
-      <p><br /></p>
-      <Link to="./Ohomemdamafia">O homem da mafia</Link>
-      <p><br /></p>
-      <Link to="./Operacoese">Operações especiais</Link>
-      <p><br /></p>
-      <Link to="./Relacaoexplosiva">Relação explosiva</Link>
-      <p><br /></p>
-      <Link to="./Stretfp">Street Figher Punho assasino</Link>
-      <p><br /></p>
-      <Link to="./Umnegocioderisco">Um negocio de risco</Link>
-      <p><br /></p>
-      <Link to="./Umpobretaoncsb">Um pobretão na Casa Branca</Link>
+  <Container>
+      <MovieList>
+      {movies.map(movie => {
+        return (
+          <Movie key={movie.id}>
+            <Link to={`/details/${movie.id}`}>
+              <img src={`${imagePath}${movie.poster_path}`} alt={movie.title}/>
+            </Link>
+            
+            <span>{movie.title}</span>
 
+          </Movie>
+        )
+      })}
+      </MovieList>
+     <center>
+        <div class="btn-group" role="group" aria-label="Exemplo básico">
 
-     
-      </nav></h1>
-
-    </>
-        
-        
-         
+  <Link to="/acao"><Button variant="primary" size="lg" width="80%">
+          Proxima pagina
+        </Button></Link>
+</div></center>
+    </Container>
   );
 }
 
+export default Acao;

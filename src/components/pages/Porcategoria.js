@@ -16,11 +16,20 @@ export default function Porcategoria() {
         </Button></Link>
 
       <p><br /></p>
+      <Link to="./animacao"><Button variant="primary" size="lg" width="80%">
+      Animação
+        </Button></Link>
+        <p><br /></p>
       <Link to="./Aventura"><Button variant="primary" size="lg" width="80%">
       Aventura
         </Button></Link>
       
       <p><br /></p>
+      <Link to="./Crime"><Button variant="primary" size="lg" width="80%">
+      Crime
+        </Button></Link>
+
+        <p><br /></p>
       <Link to="./Comedia"><Button variant="primary" size="lg" width="80%">
       Comedia
         </Button></Link>
@@ -31,6 +40,10 @@ export default function Porcategoria() {
         </Button></Link>
       
       <p><br /></p>
+      <Link to="./fantasia"><Button variant="primary" size="lg" width="80%">
+      Fantasia
+        </Button></Link>
+        <p><br /></p>
       <Link to="./Ficcao"><Button variant="primary" size="lg" width="80%">
       Ficção
         </Button></Link>

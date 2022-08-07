@@ -1,49 +1,49 @@
-import React from 'react';
-import '../../App.css';
-import {Link } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Container, Movie, MovieList } from './styles';
+import Button from 'react-bootstrap/Button';
 
-export default function Romance() {
+
+function Romance() {
+
+  const imagePath = 'https://image.tmdb.org/t/p/w500/'
+
+  const [movies, setMovies] = useState([])
+
+  useEffect(() => {
+    fetch(`https://api.themoviedb.org/4/list/8212907?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    .then(response => response.json())
+    .then(data => {
+      setMovies(data.results)
+    })
+  }, [])
 
   return (
-    <>
-      <h1 className='romance'>
 
-        <nav>
-        <p class="barNav">
-      <Link to="./Aformadaagua">
-      <img
-            src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hHPFq7myTjAVH6CwQjamAuUqhrr.jpg"
-            alt="Aforma da agua"
-          /></Link>
-      
-      <Link to="./Albertnobbs">Albert Nobbs</Link>
-      
-      <Link to="./Asvampiras">As Vampiras</Link>
-      
-      <Link to="./Coragemparaamar">Coragem para amar</Link>
-      
-      <Link to="./Entreoamoreafama">Entre o amor e a fama</Link>
-      
-      <Link to="./Jogandocomoamor">Jogando com o amor</Link>
-      
-      <Link to="./Loucamenteapaixonados">Loucamente apaixonados</Link>
-      
-      <Link to="./Pagandobqmt">Pagando Bem que Mal Tem</Link>
-      
-      <Link to="./Umamorprarecordar">Um amor pra recordar</Link>
-      
-      <Link to="./Ummatchsurpresa">Um match surpresa</Link>
-      
+  <Container>
+      <MovieList>
+      {movies.map(movie => {
+        return (
+          <Movie key={movie.id}>
+            <Link to={`/details/${movie.id}`}>
+              <img src={`${imagePath}${movie.poster_path}`} alt={movie.title}/>
+            </Link>
+            
+            <span>{movie.title}</span>
 
-</p>
+          </Movie>
+        )
+      })}
+      </MovieList>
+     <center>
+        <div class="btn-group" role="group" aria-label="Exemplo básico">
 
-     
-      </nav></h1>
-
-    </>
-        
-        
-         
+  <Link to="/romance"><Button variant="primary" size="lg" width="80%">
+          Proxima pagina
+        </Button></Link>
+</div></center>
+    </Container>
   );
 }
 
+export default Romance;

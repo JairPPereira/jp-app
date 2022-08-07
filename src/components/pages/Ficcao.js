@@ -1,45 +1,49 @@
-import React from 'react';
-import '../../App.css';
-import {Link } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Container, Movie, MovieList } from './styles';
+import Button from 'react-bootstrap/Button';
 
-export default function Ficcao() {
+
+function Ficcao() {
+
+  const imagePath = 'https://image.tmdb.org/t/p/w500/'
+
+  const [movies, setMovies] = useState([])
+
+  useEffect(() => {
+    fetch(`https://api.themoviedb.org/4/list/8212911?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    .then(response => response.json())
+    .then(data => {
+      setMovies(data.results)
+    })
+  }, [])
 
   return (
-    <>
-      <h1 className='ficcao'>
 
-        <nav>
-      <p><br /></p>
-      <Link to="./Agoraestamossos">Agora estamos sozinhos</Link>
-      <p><br /></p>
-      <Link to="./Airplanevsvolcano">Airplane vs volcano</Link>
-      <p><br /></p>
-      <Link to="./Atumbadodiabo">A tumba do Diabo</Link>
-      <p><br /></p>
-      <Link to="./Cacadoresderecompensas">Caçadores de recompensas</Link>
-      <p><br /></p>
-      <Link to="./Cosmopolis">Cosmopolis</Link>
-      <p><br /></p>
-      <Link to="./Cubo">Cubo</Link>
-      <p><br /></p>
-      <Link to="./Hoteldosdinossauros">Hotel dos dinossauros</Link>
-      <p><br /></p>
-      <Link to="./Megalodon">Megalodon</Link>
-      <p><br /></p>
-      <Link to="./Odoadordememorias">O doador de memorias</Link>
-      <p><br /></p>
-      <Link to="./Sonic">Sonic</Link>
-      <p><br /></p>
+  <Container>
+      <MovieList>
+      {movies.map(movie => {
+        return (
+          <Movie key={movie.id}>
+            <Link to={`/details/${movie.id}`}>
+              <img src={`${imagePath}${movie.poster_path}`} alt={movie.title}/>
+            </Link>
+            
+            <span>{movie.title}</span>
 
+          </Movie>
+        )
+      })}
+      </MovieList>
+     <center>
+        <div class="btn-group" role="group" aria-label="Exemplo básico">
 
-
-     
-      </nav></h1>
-
-    </>
-        
-        
-         
+  <Link to="/ficcao"><Button variant="primary" size="lg" width="80%">
+          Proxima pagina
+        </Button></Link>
+</div></center>
+    </Container>
   );
 }
 
+export default Ficcao;

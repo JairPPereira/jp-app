@@ -155,6 +155,10 @@ import Details from './components/pages/det';
 import Daaz2 from './components/pages/Daaz2';
 import Daaz3 from './components/pages/Daaz3';
 import Daaz4 from './components/pages/Daaz4';
+import Crime from './components/pages/Crime';
+import Animacao from './components/pages/Animacao';
+import Fantasia from './components/pages/Fantasia';
+
 
 
 
@@ -173,7 +177,10 @@ function App() {
         <Route path='/tvs' component={TVs} />
         <Route path='/radios' component={Radios} />
         <Route path='/acao' component={Acao} />
+        <Route path='/animacao' component={Animacao} />
         <Route path='/comedia' component={Comedia} />
+        <Route path='/crime' component={Crime} />
+        <Route path='/fantasia' component={Fantasia} />
         <Route path='/528085' component={A2067} />
         <Route path='/ficcao' component={Ficcao} />
         <Route path='/romance' component={Romance} />
@@ -316,6 +323,8 @@ function App() {
         <Route path='/details/:id' component={Details} />
         <Route path='/daaz2' component={Daaz2} />
         <Route path='/daaz4' component={Daaz4} />
+        
+        
    
 
         
