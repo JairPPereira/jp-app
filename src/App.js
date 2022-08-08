@@ -240,9 +240,9 @@ function App() {
         <Route path='/tophits' component={Tophits} />
         <Route path='/vdeoclips' component={Videoclips} />
         <Route path='/76163' component={Osmercenarios2} />
-        <Route path='/psicopataamericano2' component={Psicopataamericano2} />
+        <Route path='/10726' component={Psicopataamericano2} />
         <Route path='/re1sident' component={Re1sident} />
-        <Route path='/residentevilbem' component={Residentevilbem} />
+        <Route path='/460458' component={Residentevilbem} />
         <Route path='/redencao' component={Redencao} />
         <Route path='/relacaoexplosiva' component={Relacaoexplosiva} />
         <Route path='/ruslan' component={Ruslan} />
@@ -294,7 +294,7 @@ function App() {
         <Route path='/segredo' component={Segredo} />
         <Route path='/lama' component={Lama} />
         <Route path='/asvampiras' component={Asvampiras} />
-        <Route path='/pagandobqmt' component={Pagandobqmt} />
+        <Route path='/10358' component={Pagandobqmt} />
         <Route path='/aventura' component={Aventura} />
         <Route path='/gossebump2' component={Gossebump2} />
         <Route path='/950' component={Aeradogelo2} />
@@ -303,7 +303,7 @@ function App() {
         <Route path='/13053' component={Boltsc} />
         <Route path='/417859' component={Gatodebotas} />
         <Route path='/zero7cr' component={Zero7cr} />
-        <Route path='/pedrocoelho2' component={Pedrocoelho2} />
+        <Route path='/522478' component={Pedrocoelho2} />
         <Route path='/524434' component={Eternos} />
         <Route path='/354857' component={Apenasus} />
         <Route path='/118683' component={Operacoese} />
@@ -313,7 +313,7 @@ function App() {
         <Route path='/852592' component={Centauro} />
         <Route path='/sereia2' component={Sereia2} />
         <Route path='/scooby' component={Scooby} />
-        <Route path='/reileao' component={Reileao} />
+        <Route path='/420818' component={Reileao} />
         <Route path='/245842' component={Afilhadorei} />
         <Route path='/79465' component={Otrapaceiro} />
         <Route path='/deencontrosam' component={Deencontrosam} />
