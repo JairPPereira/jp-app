@@ -249,7 +249,7 @@ function App() {
         <Route path='/ruslan' component={Ruslan} />
         <Route path='/13207' component={Sextafeira13} />
         <Route path='/454626' component={Sonic} />
-        <Route path='/tempo' component={Tempo} />
+        <Route path='/631843' component={Tempo} />
         <Route path='/umamorprarecordar' component={Umamorprarecordar} />
         <Route path='/ummatchsurpresa' component={Ummatchsurpresa} />
         <Route path='/ummotoristaemapuros' component={Ummotoristaemapuros} />
@@ -263,7 +263,7 @@ function App() {
         <Route path='/687354' component={Stretfp} />
         <Route path='/73499' component={Codinome7} />
         <Route path='/umjovememapuros' component={Umjovememapuros} />
-        <Route path='/tudopraficarcomela' component={Tudopraficarcomela} />
+        <Route path='/259018' component={Tudopraficarcomela} />
         <Route path='/227156' component={Odoadordememorias} />
         <Route path='/17577' component={Atumbadodiabo} />
         <Route path='/672772' component={Jogandocomoamor} />
@@ -298,7 +298,7 @@ function App() {
         <Route path='/aventura' component={Aventura} />
         <Route path='/gossebump2' component={Gossebump2} />
         <Route path='/950' component={Aeradogelo2} />
-        <Route path='/tresninjas' component={Tresninjas} />
+        <Route path='/40508' component={Tresninjas} />
         <Route path='/523366' component={Ocavaleirod} />
         <Route path='/13053' component={Boltsc} />
         <Route path='/417859' component={Gatodebotas} />
@@ -308,7 +308,7 @@ function App() {
         <Route path='/354857' component={Apenasus} />
         <Route path='/118683' component={Operacoese} />
         <Route path='/346808' component={Momentum} />
-        <Route path='/trovao' component={Trovao} />
+        <Route path='/7446' component={Trovao} />
         <Route path='/pokemon' component={Pokemon} />
         <Route path='/852592' component={Centauro} />
         <Route path='/10898' component={Sereia2} />
