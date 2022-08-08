@@ -42,7 +42,7 @@ function Daaz3() {
           Pagina anterior
         </Button></Link>
  
-  <Link to="/daaz4"><Button variant="primary" size="lg" width="80%">
+  <Link to="/Daaz4"><Button variant="primary" size="lg" width="80%">
           Proxima pagina
         </Button></Link>
 </div></center>
