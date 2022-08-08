@@ -125,7 +125,6 @@ import Milena from './components/pages/Milena';
 import Perfeicao from './components/pages/Perfeicao';
 import Segredo from './components/pages/Segredo';
 import Lama from './components/pages/Lama';
-import Asvampiras from './components/pages/Asvampiras';
 import Pagandobqmt from './components/pages/Pagandobqmt';
 import Aventura from './components/pages/Aventura';
 import Gossebump2 from './components/pages/Gossebump2';
@@ -157,6 +156,7 @@ import Daaz4 from './components/pages/Daaz4';
 import Crime from './components/pages/Crime';
 import Animacao from './components/pages/Animacao';
 import Fantasia from './components/pages/Fantasia';
+import Daaz5 from './components/pages/Daaz5';
 
 
 
@@ -173,6 +173,7 @@ function App() {
         <Route path='/porcategoria' component={Porcategoria} />
         <Route path='/daaz' component={Daaz} />
         <Route path='/daaz3' component={Daaz3} />
+        <Route path='/daaz5' component={Daaz5} />
         <Route path='/tvs' component={TVs} />
         <Route path='/radios' component={Radios} />
         <Route path='/acao' component={Acao} />
@@ -244,9 +245,9 @@ function App() {
         <Route path='/re1sident' component={Re1sident} />
         <Route path='/460458' component={Residentevilbem} />
         <Route path='/redencao' component={Redencao} />
-        <Route path='/relacaoexplosiva' component={Relacaoexplosiva} />
+        <Route path='/109513' component={Relacaoexplosiva} />
         <Route path='/ruslan' component={Ruslan} />
-        <Route path='/sextafeira13' component={Sextafeira13} />
+        <Route path='/13207' component={Sextafeira13} />
         <Route path='/454626' component={Sonic} />
         <Route path='/tempo' component={Tempo} />
         <Route path='/umamorprarecordar' component={Umamorprarecordar} />
@@ -256,10 +257,10 @@ function App() {
         <Route path='/umpobretaoncsb' component={Umpobretaoncsb} />
         <Route path='/333167' component={Ascensaoeqdui} />
         <Route path='/558' component={Homemaranha2} />
-        <Route path='/supermurali' component={Supermurali} />
+        <Route path='/657644' component={Supermurali} />
         <Route path='/terror' component={Terror} />
         <Route path='/suspense' component={Suspense} />
-        <Route path='/stretfp' component={Stretfp} />
+        <Route path='/687354' component={Stretfp} />
         <Route path='/73499' component={Codinome7} />
         <Route path='/umjovememapuros' component={Umjovememapuros} />
         <Route path='/tudopraficarcomela' component={Tudopraficarcomela} />
@@ -293,7 +294,6 @@ function App() {
         <Route path='/perfeicao' component={Perfeicao} />
         <Route path='/segredo' component={Segredo} />
         <Route path='/lama' component={Lama} />
-        <Route path='/asvampiras' component={Asvampiras} />
         <Route path='/10358' component={Pagandobqmt} />
         <Route path='/aventura' component={Aventura} />
         <Route path='/gossebump2' component={Gossebump2} />
@@ -311,8 +311,8 @@ function App() {
         <Route path='/trovao' component={Trovao} />
         <Route path='/pokemon' component={Pokemon} />
         <Route path='/852592' component={Centauro} />
-        <Route path='/sereia2' component={Sereia2} />
-        <Route path='/scooby' component={Scooby} />
+        <Route path='/10898' component={Sereia2} />
+        <Route path='/47533' component={Scooby} />
         <Route path='/420818' component={Reileao} />
         <Route path='/245842' component={Afilhadorei} />
         <Route path='/79465' component={Otrapaceiro} />
