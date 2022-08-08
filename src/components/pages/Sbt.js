@@ -9,7 +9,7 @@ export default function Sbt() {
       <iframe
         src="https://www.youtube.com/embed/ABVQXgr2LW4?autoplay=true"
         frameborder="0"
-        width="100%" height="320px"
+        width="100%" height="480px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
         title="video"
       />{" "}
