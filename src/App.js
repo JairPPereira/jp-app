@@ -156,6 +156,8 @@ import Crime from './components/pages/Crime';
 import Animacao from './components/pages/Animacao';
 import Fantasia from './components/pages/Fantasia';
 import Daaz5 from './components/pages/Daaz5';
+import Campeoesdos from './components/pages/Campeoesdos';
+import Diashoje from './components/pages/Diashoje';
 
 
 
@@ -319,7 +321,9 @@ function App() {
         <Route path='/details/:id' component={Details} />
         <Route path='/daaz2' component={Daaz2} />
         <Route path='/daaz4' component={Daaz4} />
-        
+        <Route path='/61037' component={Campeoesdos} />
+        <Route path='/829557' component={Diashoje} />
+      
         
    
 
