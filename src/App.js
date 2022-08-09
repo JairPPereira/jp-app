@@ -164,6 +164,8 @@ import Sanguenaveia from './components/pages/Sanguenaveia';
 import Daaz6 from './components/pages/Daaz6';
 import Tubaraodem from './components/pages/Tubaraodem';
 import Ocongressof from './components/pages/Ocongressof';
+import Bravestorm from './components/pages/BraveStorm';
+import Notodopoder from './components/pages/Notopodopoder';
 
 
 
@@ -335,6 +337,8 @@ function App() {
         <Route path='/256474' component={Sanguenaveia} />
         <Route path='/53080' component={Tubaraodem} />
         <Route path='/152795' component={Ocongressof} />
+        <Route path='/459075' component={Bravestorm} />
+        <Route path='/254302' component={Notodopoder} />
         
    
 
