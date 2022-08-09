@@ -105,7 +105,6 @@ import Aslaminasdje from './components/pages/Aslaminasdje';
 import Ogritodamorte from './components/pages/Ogritodamorte';
 import Drama from './components/pages/Drama';
 import Kv1 from './components/pages/Kv1';
-import Osorrisodelaura from './components/pages/Osorrisodelaura';
 import Ocomitedd from './components/pages/Ocomitedd';
 import Fundingyou from './components/pages/Fundingyou';
 import Teste from './components/pages/Teste';
@@ -250,11 +249,11 @@ function App() {
         <Route path='/13207' component={Sextafeira13} />
         <Route path='/454626' component={Sonic} />
         <Route path='/631843' component={Tempo} />
-        <Route path='/umamorprarecordar' component={Umamorprarecordar} />
-        <Route path='/ummatchsurpresa' component={Ummatchsurpresa} />
-        <Route path='/ummotoristaemapuros' component={Ummotoristaemapuros} />
-        <Route path='/umnegocioderisco' component={Umnegocioderisco} />
-        <Route path='/umpobretaoncsb' component={Umpobretaoncsb} />
+        <Route path='/10229' component={Umamorprarecordar} />
+        <Route path='/734265' component={Ummatchsurpresa} />
+        <Route path='/376581' component={Ummotoristaemapuros} />
+        <Route path='/334527' component={Umnegocioderisco} />
+        <Route path='/9776' component={Umpobretaoncsb} />
         <Route path='/333167' component={Ascensaoeqdui} />
         <Route path='/558' component={Homemaranha2} />
         <Route path='/657644' component={Supermurali} />
@@ -274,7 +273,6 @@ function App() {
         <Route path='/340185' component={Ogritodamorte} />
         <Route path='/drama' component={Drama} />
         <Route path='/556018' component={Kv1} />
-        <Route path='/osorrisodelaura' component={Osorrisodelaura} />
         <Route path='/653024' component={Ocomitedd} />
         <Route path='/769749' component={Fundingyou} />
         <Route path='/test' component={Teste} />
