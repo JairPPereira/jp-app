@@ -4,14 +4,14 @@ import { Container, Movie, MovieList } from './styles';
 import Button from 'react-bootstrap/Button';
 
 
-function Acao() {
+function Daaz6() {
 
   const imagePath = 'https://image.tmdb.org/t/p/w500/'
 
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
-    fetch(`https://api.themoviedb.org/4/list/8212908?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    fetch(`https://api.themoviedb.org/4/list/8213123?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
     .then(response => response.json())
     .then(data => {
       setMovies(data.results)
@@ -35,10 +35,14 @@ function Acao() {
         )
       })}
       </MovieList>
-     <center>
+ 
+        <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
-
-  <Link to="/acao2"><Button variant="primary" size="lg" width="80%">
+        <Link to="/daaz5"><Button variant="primary" size="lg" width="80%">
+          Pagina anterior
+        </Button></Link>
+ 
+  <Link to="/daaz6"><Button variant="primary" size="lg" width="80%">
           Proxima pagina
         </Button></Link>
 </div></center>
@@ -46,4 +50,4 @@ function Acao() {
   );
 }
 
-export default Acao;
+export default Daaz6;

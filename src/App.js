@@ -158,6 +158,12 @@ import Fantasia from './components/pages/Fantasia';
 import Daaz5 from './components/pages/Daaz5';
 import Campeoesdos from './components/pages/Campeoesdos';
 import Diashoje from './components/pages/Diashoje';
+import Acao2 from './components/pages/Acao2';
+import Afamilia from './components/pages/Afamilia';
+import Sanguenaveia from './components/pages/Sanguenaveia';
+import Daaz6 from './components/pages/Daaz6';
+import Tubaraodem from './components/pages/Tubaraodem';
+import Ocongressof from './components/pages/Ocongressof';
 
 
 
@@ -321,9 +327,14 @@ function App() {
         <Route path='/details/:id' component={Details} />
         <Route path='/daaz2' component={Daaz2} />
         <Route path='/daaz4' component={Daaz4} />
+        <Route path='/daaz6' component={Daaz6} />
         <Route path='/61037' component={Campeoesdos} />
         <Route path='/829557' component={Diashoje} />
-      
+        <Route path='/acao2' component={Acao2} />
+        <Route path='/112205' component={Afamilia} />
+        <Route path='/256474' component={Sanguenaveia} />
+        <Route path='/53080' component={Tubaraodem} />
+        <Route path='/152795' component={Ocongressof} />
         
    
 
