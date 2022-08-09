@@ -166,6 +166,7 @@ import Tubaraodem from './components/pages/Tubaraodem';
 import Ocongressof from './components/pages/Ocongressof';
 import Bravestorm from './components/pages/BraveStorm';
 import Notodopoder from './components/pages/Notopodopoder';
+import Elvis from './components/pages/Elvis';
 
 
 
@@ -339,6 +340,7 @@ function App() {
         <Route path='/152795' component={Ocongressof} />
         <Route path='/459075' component={Bravestorm} />
         <Route path='/254302' component={Notodopoder} />
+        <Route path='/614934' component={Elvis} />
         
    
 
