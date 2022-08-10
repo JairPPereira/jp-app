@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Elvis extends Component {
+class Tormenta extends Component {
     player = {}
     state = {
         video: {
-            src: "https://908356846.tapecontent.net/radosgw/J2YGmaze9JIjjvv/h4gWLP9Q3UxSajHqrCV2oeKq2IYgpduYqfMgwPUGCb-gj0Fjy8FIUe_9x_4L3wSp99cCj9A8XbZ9o7vU7OLuFuxI80veg0QDOS5u-Y8gD40uM8JIWVT32ikUVzj9SR_1QlUSJ3UYNCfnRaZVrYv7abV-aXAPYPtqDWjijZxMM_5rSe2EXq5B5rKVLR-7ng64Qgrd2obG_bY95VGktHVFBFe5pWSMDMsAl1mYhXw6osCt_f91gL6I9U9Ivz8DduscbkzCChbks4zmlW8D0Oh4fHmY3n3yGck3wxkN7Q/AivJPcmEm4Ixam3U.mp4?stream=1",
+            src: "https://cdnapisec.kaltura.com/p/513551/sp/51355100/playManifest/entryId/1_ljqd571u/format/applehttp/protocol/https/flavorIds/1_byghxqq3,1_nci7y360,1_hna7x9gg,1_vn1y05ri,1_5db4w4az,1_yd29giaj,1_n9gap8kb/preferredBitrate/1500/maxBitrate/10000/a.m3u8?timestamp=1660164999&id=6263&ip=167.249.209.148&override_expiration=1500&sign=Guaub23CxYqJe9WvCWwKMaRWZeHZCvoVca9S%2BI3ToBs%3D&playSessionId=29273787-d380-3ccb-1a0e-f9b56a934fa5:e21112f7-82e1-e9f5-9dee-c910d9a3b2dd&referrer=aHR0cHM6Ly93d3cucnVudGltZS50di9wdC1ici9mZWF0dXJlL3Rvcm1lbnRh&clientTag=html5:v7.50",
 
             poster: ""
         }
@@ -74,4 +74,4 @@ class Elvis extends Component {
         );
     }
 }
-export default Elvis;
+export default Tormenta;

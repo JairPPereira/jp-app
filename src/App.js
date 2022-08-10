@@ -166,12 +166,12 @@ import Tubaraodem from './components/pages/Tubaraodem';
 import Ocongressof from './components/pages/Ocongressof';
 import Bravestorm from './components/pages/BraveStorm';
 import Notodopoder from './components/pages/Notopodopoder';
-import Elvis from './components/pages/Elvis';
-import Esquecidos71 from './components/pages/Esquecidos71';
 import Acasamonstro from './components/pages/Acasamonstro';
 import Aeradogelob from './components/pages/Aeradogelob';
 import Faroestecabloco from './components/pages/Faroestecabloco';
 import Mulheresaomar2 from './components/pages/Mulheresaomar2';
+import Tormenta from './components/pages/Tormenta';
+import Samurayx2 from './components/pages/Samurayx2';
 
 
 
@@ -347,11 +347,11 @@ function App() {
         <Route path='/152795' component={Ocongressof} />
         <Route path='/459075' component={Bravestorm} />
         <Route path='/254302' component={Notodopoder} />
-        <Route path='/614934' component={Elvis} />
-        <Route path='/252178' component={Esquecidos71} />
         <Route path='/9297' component={Acasamonstro} />
         <Route path='/195423' component={Faroestecabloco} />
         <Route path='/337706' component={Mulheresaomar2} />
+        <Route path='/10534' component={Tormenta} />
+        <Route path='/221731' component={Samurayx2} />
         
         
         

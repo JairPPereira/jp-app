@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Esquecidos71 extends Component {
+class Samurayx2 extends Component {
     player = {}
     state = {
         video: {
-            src: "https://cdnapisec.kaltura.com/p/513551/sp/51355100/playManifest/entryId/1_zljanaq7/format/applehttp/protocol/https/flavorIds/1_0g0k2wsu,1_4c81tqko,1_d3781732,1_pm4uudbn,1_uew4xv9t,1_3zmvfjbb/preferredBitrate/1500/maxBitrate/10000/a.m3u8?timestamp=1657570522&id=891&ip=167.249.209.218&override_expiration=1500&sign=B3Wqc0KWERUPiQuEpeqLOidulnoe67Vp9TR5efyNIJM%3D&playSessionId=ba37ae17-43d0-cb66-b0ac-91997525e00d:5e7d0402-581f-d3b9-1d84-a360dc9f58ce&referrer=aHR0cHM6Ly93d3cucnVudGltZS50di9wdC1ici9mZWF0dXJlL2VudHJlLW8tYW1vci1lLWZhbWE=&clientTag=html5:v7.49",
+            src: "https://cdnapisec.kaltura.com/p/513551/sp/51355100/playManifest/entryId/1_zvofx10w/format/applehttp/protocol/https/flavorIds/1_d4zgkulz,1_s08azpeh,1_k7cexzo1,1_ra6aje56,1_beluvma3,1_k33cv0wr,1_7tb8mj9g/preferredBitrate/1500/maxBitrate/10000/a.m3u8?timestamp=1660165198&id=6320&ip=167.249.209.148&override_expiration=1500&sign=Pfm09wsQ8ERsx20XhnIpuYNrmW%2BXiS5T%2FdHRrnuZkn4%3D&playSessionId=dc753907-4471-00ab-0d98-88526eb931b9:168ed65a-7170-af52-3a24-b5c21c43567a&referrer=aHR0cHM6Ly93d3cucnVudGltZS50di9wdC1ici9mZWF0dXJlL3NhbXVyYWkteC0yLW8taW5mZXJuby1kZS1reW90bw==&clientTag=html5:v7.50",
 
             poster: ""
         }
@@ -74,4 +74,4 @@ class Esquecidos71 extends Component {
         );
     }
 }
-export default Esquecidos71;
+export default Samurayx2;
