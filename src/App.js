@@ -172,6 +172,7 @@ import Faroestecabloco from './components/pages/Faroestecabloco';
 import Mulheresaomar2 from './components/pages/Mulheresaomar2';
 import Tormenta from './components/pages/Tormenta';
 import Samurayx2 from './components/pages/Samurayx2';
+import Elvis from './components/pages/Elvis';
 
 
 
@@ -352,6 +353,7 @@ function App() {
         <Route path='/337706' component={Mulheresaomar2} />
         <Route path='/10534' component={Tormenta} />
         <Route path='/221731' component={Samurayx2} />
+        <Route path='/614934' component={Elvis} />
         
         
         
