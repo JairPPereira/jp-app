@@ -29,7 +29,7 @@ export default function Home() {
         
         <Card>
       <Card.Body><Link to="/Daaz"><Button variant="primary" size="lg" width="100%">
-          Filmes de A a Z
+          Todos os Filmes
         </Button></Link></Card.Body>
     </Card>
     <Card>

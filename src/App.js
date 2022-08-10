@@ -170,6 +170,8 @@ import Elvis from './components/pages/Elvis';
 import Esquecidos71 from './components/pages/Esquecidos71';
 import Acasamonstro from './components/pages/Acasamonstro';
 import Aeradogelob from './components/pages/Aeradogelob';
+import Faroestecabloco from './components/pages/Faroestecabloco';
+import Mulheresaomar2 from './components/pages/Mulheresaomar2';
 
 
 
@@ -348,6 +350,8 @@ function App() {
         <Route path='/614934' component={Elvis} />
         <Route path='/252178' component={Esquecidos71} />
         <Route path='/9297' component={Acasamonstro} />
+        <Route path='/195423' component={Faroestecabloco} />
+        <Route path='/337706' component={Mulheresaomar2} />
         
         
         
