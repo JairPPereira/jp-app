@@ -167,6 +167,10 @@ import Ocongressof from './components/pages/Ocongressof';
 import Bravestorm from './components/pages/BraveStorm';
 import Notodopoder from './components/pages/Notopodopoder';
 import Elvis from './components/pages/Elvis';
+import Esquecidos71 from './components/pages/Esquecidos71';
+import Acasamonstro from './components/pages/Acasamonstro';
+import Aeradogelob from './components/pages/Aeradogelob';
+
 
 
 
@@ -323,6 +327,7 @@ function App() {
         <Route path='/10898' component={Sereia2} />
         <Route path='/47533' component={Scooby} />
         <Route path='/420818' component={Reileao} />
+        <Route path='/774825' component={Aeradogelob} />
         <Route path='/245842' component={Afilhadorei} />
         <Route path='/79465' component={Otrapaceiro} />
         <Route path='/deencontrosam' component={Deencontrosam} />
@@ -341,6 +346,10 @@ function App() {
         <Route path='/459075' component={Bravestorm} />
         <Route path='/254302' component={Notodopoder} />
         <Route path='/614934' component={Elvis} />
+        <Route path='/252178' component={Esquecidos71} />
+        <Route path='/9297' component={Acasamonstro} />
+        
+        
         
    
 
