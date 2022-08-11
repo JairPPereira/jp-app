@@ -147,7 +147,6 @@ import Reileao from './components/pages/Reileao';
 import Afilhadorei from './components/pages/Afilhadorei';
 import Otrapaceiro from './components/pages/Otrapaceiro';
 import Deencontrosam from './components/pages/Deencontrosam';
-import A1casadomedo from './components/pages/A1casadomedo';
 import Details from './components/pages/det';
 import Daaz2 from './components/pages/Daaz2';
 import Daaz3 from './components/pages/Daaz3';
@@ -337,7 +336,6 @@ function App() {
         <Route path='/245842' component={Afilhadorei} />
         <Route path='/79465' component={Otrapaceiro} />
         <Route path='/deencontrosam' component={Deencontrosam} />
-        <Route path='476299' component={A1casadomedo} />
         <Route path='/details/:id' component={Details} />
         <Route path='/daaz2' component={Daaz2} />
         <Route path='/daaz4' component={Daaz4} />
