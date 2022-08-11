@@ -178,6 +178,8 @@ import Omongeapdb from './components/pages/Omongeapdb';
 import Acasadomedo from './components/pages/Acasadomedo';
 import Ajornadadevivo from './components/pages/Ajornadadevivo';
 import Alendadmc from './components/pages/Alendadmc';
+import Aranhas from './components/pages/Aranhas';
+import Acolonia from './components/pages/Acolonia';
 
 
 
@@ -364,6 +366,8 @@ function App() {
         <Route path='/476299' component={Acasadomedo} />
         <Route path='/449406' component={Ajornadadevivo} />
         <Route path='/75948' component={Alendadmc} />
+        <Route path='/164331' component={Aranhas} />
+        <Route path='/178809' component={Acolonia} />
         
         
         
