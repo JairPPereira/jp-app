@@ -175,6 +175,7 @@ import Elvis from './components/pages/Elvis';
 import Osdezmandamentos from './components/pages/Osdezmandamentos';
 import Olivroderute from './components/pages/Olivroderute';
 import Omongeapdb from './components/pages/Omongeapdb';
+import Acasadomedo from './components/pages/Acasadomedo';
 
 
 
@@ -358,6 +359,7 @@ function App() {
         <Route path='/22331' component={Osdezmandamentos} />
         <Route path='/44665' component={Olivroderute} />
         <Route path='/11817' component={Omongeapdb} />
+        <Route path='/476299' component={Acasadomedo} />
         
         
         
