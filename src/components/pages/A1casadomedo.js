@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Acasadomedo extends Component {
+class A1casadomedo extends Component {
     player = {}
     state = {
         video: {
@@ -76,4 +76,4 @@ class Acasadomedo extends Component {
         );
     }
 }
-export default Acasadomedo;
+export default A1casadomedo;
