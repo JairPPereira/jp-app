@@ -182,6 +182,9 @@ import Aranhas from './components/pages/Aranhas';
 import Acolonia from './components/pages/Acolonia';
 import Alegiao from './components/pages/Alegiao';
 import Avitimaperfeita from './components/pages/Avitimaperfeita';
+import Osdeusesdel2 from './components/pages/Os deusesdel2';
+import Daaz7 from './components/pages/Daaz7';
+import Oladobomdavida from './components/pages/Oladobomdavida';
 
 
 
@@ -372,6 +375,9 @@ function App() {
         <Route path='/178809' component={Acolonia} />
         <Route path='/308695' component={Alegiao} />
         <Route path='/66113' component={Avitimaperfeita} />
+        <Route path='/11937' component={Osdeusesdel2} />
+        <Route path='/daaz7' component={Daaz7} />
+        <Route path='/82693' component={Oladobomdavida} />
         
         
         
