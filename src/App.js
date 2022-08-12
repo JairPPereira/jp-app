@@ -180,6 +180,8 @@ import Ajornadadevivo from './components/pages/Ajornadadevivo';
 import Alendadmc from './components/pages/Alendadmc';
 import Aranhas from './components/pages/Aranhas';
 import Acolonia from './components/pages/Acolonia';
+import Alegiao from './components/pages/Alegiao';
+import Avitimaperfeita from './components/pages/Avitimaperfeita';
 
 
 
@@ -368,6 +370,8 @@ function App() {
         <Route path='/75948' component={Alendadmc} />
         <Route path='/164331' component={Aranhas} />
         <Route path='/178809' component={Acolonia} />
+        <Route path='/308695' component={Alegiao} />
+        <Route path='/66113' component={Avitimaperfeita} />
         
         
         
