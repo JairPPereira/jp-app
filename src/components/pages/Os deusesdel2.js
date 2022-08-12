@@ -7,7 +7,7 @@ export default function Osdeusesdel2() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://cloclo54.cloud.mail.ru/weblink/view//tgx6/dnFmvYSsa"
+        src="https://streamtape.com/e/7DbOwMA7B9tAlQX/"
         frameborder="0"
         width="100%" height="480px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
