@@ -188,6 +188,8 @@ import Oladobomdavida from './components/pages/Oladobomdavida';
 import Aprincesa from './components/pages/Aprincesa';
 import Amaldicaodi from './components/pages/Amaldicaodi';
 import Aviuvads from './components/pages/Aviuvads';
+import Embuscadaliberdade from './components/pages/Embuscadaliberdade';
+import Tudoporjustica from './components/pages/Tudoporjusitca';
 
 
 
@@ -381,9 +383,11 @@ function App() {
         <Route path='/11937' component={Osdeusesdel2} />
         <Route path='/daaz7' component={Daaz7} />
         <Route path='/82693' component={Oladobomdavida} />
-        <Route path='/57695' component={Aprincesa} />
+        <Route path='/759175' component={Aprincesa} />
         <Route path='/540291' component={Amaldicaodi} />
         <Route path='/579872' component={Aviuvads} />
+        <Route path='/346684' component={Embuscadaliberdade} />
+        <Route path='/164457' component={Tudoporjustica} />
         
         
         
