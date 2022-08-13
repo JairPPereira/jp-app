@@ -8,7 +8,7 @@ class Tudoporjustica extends Component {
     player = {}
     state = {
         video: {
-            src: "https://siloh.pluto.tv/c6009f_pluto/clip/60bf768c1f07220014c0c276_Malibu_Shark_Attack_BR/720p/20210608_065421/hls/0-end/master.m3u8",
+            src: "https://cdnapisec.kaltura.com/p/513551/sp/51355100/playManifest/entryId/1_idh8n9xo/format/applehttp/protocol/https/flavorIds/1_byabbwc5,1_yyzuf4rj,1_ipx9ckae,1_ajiqjar9,1_skvohknj,1_vk952evg,1_mhit7c5v/preferredBitrate/1500/maxBitrate/10000/a.m3u8?timestamp=1660428863&id=4786&ip=167.249.209.145&override_expiration=1500&sign=9ImZTi3IfKUkSQU5%2BfSGTVIHDbDt7JqkBYXZzmVVlS8%3D&playSessionId=3c7ab700-bb7a-02b6-e504-1573ed4fac2b:a246c2cb-96a1-90fa-64b6-9fa694a043c3&referrer=aHR0cHM6Ly93d3cucnVudGltZS50di9wdC1ici9mZWF0dXJlL3R1ZG8tcG9yLWp1c3RpY2E=&clientTag=html5:v7.50",
 
             poster: ""
         }
