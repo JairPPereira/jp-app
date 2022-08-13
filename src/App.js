@@ -185,6 +185,7 @@ import Avitimaperfeita from './components/pages/Avitimaperfeita';
 import Osdeusesdel2 from './components/pages/Os deusesdel2';
 import Daaz7 from './components/pages/Daaz7';
 import Oladobomdavida from './components/pages/Oladobomdavida';
+import Aprincesa from './components/pages/Aprincesa';
 
 
 
@@ -378,6 +379,7 @@ function App() {
         <Route path='/11937' component={Osdeusesdel2} />
         <Route path='/daaz7' component={Daaz7} />
         <Route path='/82693' component={Oladobomdavida} />
+        <Route path='/57695' component={Aprincesa} />
         
         
         
