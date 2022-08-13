@@ -186,6 +186,8 @@ import Osdeusesdel2 from './components/pages/Os deusesdel2';
 import Daaz7 from './components/pages/Daaz7';
 import Oladobomdavida from './components/pages/Oladobomdavida';
 import Aprincesa from './components/pages/Aprincesa';
+import Amaldicaodi from './components/pages/Amaldicaodi';
+import Aviuvads from './components/pages/Aviuvads';
 
 
 
@@ -380,6 +382,8 @@ function App() {
         <Route path='/daaz7' component={Daaz7} />
         <Route path='/82693' component={Oladobomdavida} />
         <Route path='/57695' component={Aprincesa} />
+        <Route path='/540291' component={Amaldicaodi} />
+        <Route path='/579872' component={Aviuvads} />
         
         
         
