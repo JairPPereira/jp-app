@@ -192,6 +192,7 @@ import Embuscadaliberdade from './components/pages/Embuscadaliberdade';
 import Tudoporjustica from './components/pages/Tudoporjusitca';
 import Assasinosde from './components/pages/Assasinosde';
 import Loucaspade from './components/pages/Loucaspade';
+import Batman from './components/pages/Batman';
 
 
 
@@ -392,6 +393,7 @@ function App() {
         <Route path='/164457' component={Tudoporjustica} />
         <Route path='/146631' component={Assasinosde} />
         <Route path='/12085' component={Loucaspade} />
+        <Route path='/414906' component={Batman} />
         
         
         
