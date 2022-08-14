@@ -38,7 +38,7 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to='/Daaz' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/Daaz6' className='nav-links' onClick={closeMobileMenu}>
               Filmes de A a Z
             </Link>
           </li>

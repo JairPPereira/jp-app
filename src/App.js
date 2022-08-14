@@ -209,8 +209,12 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/porcategoria' component={Porcategoria} />
         <Route path='/daaz' component={Daaz} />
+        <Route path='/daaz2' component={Daaz2} />
         <Route path='/daaz3' component={Daaz3} />
+        <Route path='/daaz4' component={Daaz4} />
         <Route path='/daaz5' component={Daaz5} />
+        <Route path='/daaz6' component={Daaz6} />
+        <Route path='/daaz7' component={Daaz7} />
         <Route path='/tvs' component={TVs} />
         <Route path='/radios' component={Radios} />
         <Route path='/acao' component={Acao} />
@@ -355,9 +359,6 @@ function App() {
         <Route path='/79465' component={Otrapaceiro} />
         <Route path='/deencontrosam' component={Deencontrosam} />
         <Route path='/details/:id' component={Details} />
-        <Route path='/daaz2' component={Daaz2} />
-        <Route path='/daaz4' component={Daaz4} />
-        <Route path='/daaz6' component={Daaz6} />
         <Route path='/61037' component={Campeoesdos} />
         <Route path='/829557' component={Diashoje} />
         <Route path='/acao2' component={Acao2} />
@@ -384,7 +385,6 @@ function App() {
         <Route path='/308695' component={Alegiao} />
         <Route path='/66113' component={Avitimaperfeita} />
         <Route path='/11937' component={Osdeusesdel2} />
-        <Route path='/daaz7' component={Daaz7} />
         <Route path='/82693' component={Oladobomdavida} />
         <Route path='/759175' component={Aprincesa} />
         <Route path='/540291' component={Amaldicaodi} />
