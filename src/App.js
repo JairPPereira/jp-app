@@ -195,6 +195,7 @@ import Loucaspade from './components/pages/Loucaspade';
 import Batman from './components/pages/Batman';
 import Matrixr from './components/pages/Matrixr';
 import Encanto from './components/pages/Encanto';
+import Osdozemacacos from './components/pages/Osdozemacacos';
 
 
 
@@ -398,6 +399,7 @@ function App() {
         <Route path='/414906' component={Batman} />
         <Route path='/624860' component={Matrixr} />
         <Route path='/568124' component={Encanto} />
+        <Route path='/63' component={Osdozemacacos} />
         
         
         
