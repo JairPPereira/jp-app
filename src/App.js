@@ -193,6 +193,8 @@ import Tudoporjustica from './components/pages/Tudoporjusitca';
 import Assasinosde from './components/pages/Assasinosde';
 import Loucaspade from './components/pages/Loucaspade';
 import Batman from './components/pages/Batman';
+import Matrixr from './components/pages/Matrixr';
+import Encanto from './components/pages/Encanto';
 
 
 
@@ -394,6 +396,8 @@ function App() {
         <Route path='/146631' component={Assasinosde} />
         <Route path='/12085' component={Loucaspade} />
         <Route path='/414906' component={Batman} />
+        <Route path='/624860' component={Matrixr} />
+        <Route path='/568124' component={Encanto} />
         
         
         
