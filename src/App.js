@@ -190,6 +190,8 @@ import Amaldicaodi from './components/pages/Amaldicaodi';
 import Aviuvads from './components/pages/Aviuvads';
 import Embuscadaliberdade from './components/pages/Embuscadaliberdade';
 import Tudoporjustica from './components/pages/Tudoporjusitca';
+import Assasinosde from './components/pages/Assasinosde';
+import Loucaspade from './components/pages/Loucaspade';
 
 
 
@@ -388,6 +390,8 @@ function App() {
         <Route path='/579872' component={Aviuvads} />
         <Route path='/346684' component={Embuscadaliberdade} />
         <Route path='/164457' component={Tudoporjustica} />
+        <Route path='/146631' component={Assasinosde} />
+        <Route path='/12085' component={Loucaspade} />
         
         
         
