@@ -200,6 +200,8 @@ import Osdozec from './components/pages/Osdozec';
 import Omercadordv from './components/pages/Omercadordv';
 import Omensageiro from './components/pages/Omensageiro';
 import Higthschool from './components/pages/Higthschool';
+import Oprecodg from './components/pages/Oprecodg';
+import Porquees from './components/pages/Porquees';
 
 
 
@@ -408,6 +410,8 @@ function App() {
         <Route path='/11162' component={Omercadordv} />
         <Route path='/402423' component={Omensageiro} />
         <Route path='/23367' component={Higthschool} />
+        <Route path='/422821' component={Oprecodg} />
+        <Route path='/96933' component={Porquees} />
         
         
    
