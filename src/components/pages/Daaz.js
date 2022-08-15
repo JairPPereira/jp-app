@@ -37,11 +37,11 @@ function Todosf() {
       </MovieList>
       <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
-        <Link to="/daaz2"><Button variant="primary" size="lg" width="80%">
+        <Link to="/daaz7"><Button variant="primary" size="lg" width="80%">
           Pagina anterior
         </Button></Link>
  
-  <Link to="/Daaz7"><Button variant="primary" size="lg" width="80%">
+  <Link to="/Daaz2"><Button variant="primary" size="lg" width="80%">
           Proxima pagina
         </Button></Link>
 </div></center>

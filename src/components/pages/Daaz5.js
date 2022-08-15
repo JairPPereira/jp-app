@@ -38,11 +38,11 @@ function Daaz5() {
  
         <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
-        <Link to="/daaz6"><Button variant="primary" size="lg" width="80%">
+        <Link to="/daaz4"><Button variant="primary" size="lg" width="80%">
           Pagina anterior
         </Button></Link>
  
-  <Link to="/daaz4"><Button variant="primary" size="lg" width="80%">
+  <Link to="/daaz6"><Button variant="primary" size="lg" width="80%">
           Proxima pagina
         </Button></Link>
 </div></center>
