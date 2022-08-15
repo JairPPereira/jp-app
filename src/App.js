@@ -202,6 +202,8 @@ import Omensageiro from './components/pages/Omensageiro';
 import Higthschool from './components/pages/Higthschool';
 import Oprecodg from './components/pages/Oprecodg';
 import Porquees from './components/pages/Porquees';
+import Nezhacpv from './components/pages/Nezhacpv';
+import Terrorns from './components/pages/Terrorns';
 
 
 
@@ -412,6 +414,8 @@ function App() {
         <Route path='/23367' component={Higthschool} />
         <Route path='/422821' component={Oprecodg} />
         <Route path='/96933' component={Porquees} />
+        <Route path='/781456' component={Nezhacpv} />
+        <Route path='/504198' component={Terrorns} />
         
         
    
