@@ -7,7 +7,7 @@ export default function Osdozec() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://streamtape.com/e/Vm0MaMe1pjHK7w2/"
+        src="https://streamtape.com/e/Dqom2788JMfk2wO/"
         frameborder="0"
         width="100%" height="600px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
