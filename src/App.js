@@ -196,6 +196,10 @@ import Batman from './components/pages/Batman';
 import Matrixr from './components/pages/Matrixr';
 import Encanto from './components/pages/Encanto';
 import Osdozemacacos from './components/pages/Osdozemacacos';
+import Osdozec from './components/pages/Osdozec';
+import Omercadordv from './components/pages/Omercadordv';
+import Omensageiro from './components/pages/Omensageiro';
+import Higthschool from './components/pages/Higthschool';
 
 
 
@@ -400,7 +404,10 @@ function App() {
         <Route path='/624860' component={Matrixr} />
         <Route path='/568124' component={Encanto} />
         <Route path='/63' component={Osdozemacacos} />
-        
+        <Route path='/1654' component={Osdozec} />
+        <Route path='/11162' component={Omercadordv} />
+        <Route path='/402423' component={Omensageiro} />
+        <Route path='/23367' component={Higthschool} />
         
         
    
