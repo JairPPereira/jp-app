@@ -204,6 +204,9 @@ import Oprecodg from './components/pages/Oprecodg';
 import Porquees from './components/pages/Porquees';
 import Nezhacpv from './components/pages/Nezhacpv';
 import Terrorns from './components/pages/Terrorns';
+import Daaz8 from './components/pages/Daaz8';
+import Emnomedopai from './components/pages/Emnomedopai';
+import Ateofinal from './components/pages/Ateofinal';
 
 
 
@@ -226,6 +229,7 @@ function App() {
         <Route path='/daaz5' component={Daaz5} />
         <Route path='/daaz6' component={Daaz6} />
         <Route path='/daaz7' component={Daaz7} />
+        <Route path='/daaz8' component={Daaz8} />
         <Route path='/tvs' component={TVs} />
         <Route path='/radios' component={Radios} />
         <Route path='/acao' component={Acao} />
@@ -416,6 +420,8 @@ function App() {
         <Route path='/96933' component={Porquees} />
         <Route path='/781456' component={Nezhacpv} />
         <Route path='/504198' component={Terrorns} />
+        <Route path='/770428' component={Emnomedopai} />
+        <Route path='/707214' component={Ateofinal} />
         
         
    
