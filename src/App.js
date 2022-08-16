@@ -207,6 +207,9 @@ import Terrorns from './components/pages/Terrorns';
 import Daaz8 from './components/pages/Daaz8';
 import Emnomedopai from './components/pages/Emnomedopai';
 import Ateofinal from './components/pages/Ateofinal';
+import Aturmadam24 from './components/pages/Aturmadam24';
+import Gamert1e1 from './components/pages/Gamert1e1';
+import Gameoft from './components/pages/Gameoft';
 
 
 
@@ -422,6 +425,9 @@ function App() {
         <Route path='/504198' component={Terrorns} />
         <Route path='/770428' component={Emnomedopai} />
         <Route path='/707214' component={Ateofinal} />
+        <Route path='/aturmadam24' component={Aturmadam24} />
+        <Route path='/Gamert1e1' component={Gamert1e1} />
+        <Route path='/gameoft' component={Gameoft} />
         
         
    

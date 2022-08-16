@@ -66,7 +66,7 @@ export default function TVs() {
         </Button></Link></Card.Body>
     </Card>
     <Card>
-    <Card.Body><Link to="./test"><Button variant="primary" size="lg" width="100%">
+    <Card.Body><Link to="./Aturmadam24"><Button variant="primary" size="lg" width="100%">
     Teste
         </Button></Link></Card.Body>
     </Card>

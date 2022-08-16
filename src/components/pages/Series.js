@@ -12,6 +12,9 @@ export default function Series() {
       <p><br /></p>
       <Link to="./Aturmadamonica">A turma da Mônica</Link>
       <p><br /></p>
+      <p><br /></p>
+      <Link to="./Gameoft">Game of Thrones</Link>
+      <p><br /></p>
       
       </nav></h1>
 

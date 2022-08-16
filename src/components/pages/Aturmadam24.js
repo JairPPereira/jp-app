@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './videoapp.css';
 
-export default function Sbt() {
+export default function Aturmadam24() {
   return (
     <div>
           <p><br /></p>
@@ -24,8 +24,5 @@ export default function Sbt() {
 
   );
 }
-
-
-
 
 
