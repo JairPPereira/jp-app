@@ -210,6 +210,7 @@ import Ateofinal from './components/pages/Ateofinal';
 import Aturmadam24 from './components/pages/Aturmadam24';
 import Gamert1e1 from './components/pages/Gamert1e1';
 import Gameoft from './components/pages/Gameoft';
+import Details2 from './components/pages/Detail2';
 
 
 
@@ -338,7 +339,7 @@ function App() {
         <Route path='/test' component={Teste} />
         <Route path='/23520' component={Fungindodopassado} />
         <Route path='/391486' component={Atravessia} />
-        <Route path='/aturmadamonica' component={Aturmadamonica} />
+        <Route path='/157485' component={Aturmadamonica} />
         <Route path='/series' component={Series} />
         <Route path='/playlistyou' component={Playlistyou} />
         <Route path='/playcda' component={Playcda} />
@@ -377,6 +378,7 @@ function App() {
         <Route path='/79465' component={Otrapaceiro} />
         <Route path='/deencontrosam' component={Deencontrosam} />
         <Route path='/details/:id' component={Details} />
+        <Route path='/details2/:id' component={Details2} />
         <Route path='/61037' component={Campeoesdos} />
         <Route path='/829557' component={Diashoje} />
         <Route path='/acao2' component={Acao2} />
@@ -427,7 +429,7 @@ function App() {
         <Route path='/707214' component={Ateofinal} />
         <Route path='/aturmadam24' component={Aturmadam24} />
         <Route path='/Gamert1e1' component={Gamert1e1} />
-        <Route path='/gameoft' component={Gameoft} />
+        <Route path='/1399' component={Gameoft} />
         
         
    

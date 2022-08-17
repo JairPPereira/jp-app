@@ -8,7 +8,7 @@ import './videoapp.css';
           <div>
                 <p><br /></p>
             <iframe
-              src="https://drive.google.com/file/d/1t0QUd-Ftuny1qUXHb0W5Godew9I3FhQC/preview"
+              src="https://streamtape.com/e/PyJ2eoRJoJuDxR/"
               frameborder="0"
               width="100%" height="480px"
               allow="autoplay; encrypted-media; fullscreen; pincture in pincture"

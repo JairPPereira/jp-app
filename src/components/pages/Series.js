@@ -1,27 +1,52 @@
-import React from 'react';
-import '../../App.css';
-import {Link } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Container, Movie, MovieList } from './styles';
+import Button from 'react-bootstrap/Button';
 
-export default function Series() {
+
+function Series() {
+
+  const imagePath = 'https://image.tmdb.org/t/p/w500/'
+
+  const [movies, setMovies] = useState([])
+
+  useEffect(() => {
+    fetch(`https://api.themoviedb.org/4/list/8213783?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    .then(response => response.json())
+    .then(data => {
+      setMovies(data.results)
+    })
+  }, [])
 
   return (
-    <>
-      <h1 className='series'>
 
-<nav>
-      <p><br /></p>
-      <Link to="./Aturmadamonica">A turma da Mônica</Link>
-      <p><br /></p>
-      <p><br /></p>
-      <Link to="./Gameoft">Game of Thrones</Link>
-      <p><br /></p>
-      
-      </nav></h1>
+  <Container>
+      <MovieList>
+      {movies.map(movie => {
+        return (
+          <Movie key={movie.id}>
+            <Link to={`/details2/${movie.id}`}>
+              <img src={`${imagePath}${movie.poster_path}`} alt={movie.title}/>
+            </Link>
+            
+            <span>{movie.title}</span>
 
-    </>
-        
-        
-         
+          </Movie>
+        )
+      })}
+      </MovieList>
+      <center>
+        <div class="btn-group" role="group" aria-label="Exemplo básico">
+        <Link to="/daaz8"><Button variant="primary" size="lg" width="80%">
+          Pagina anterior
+        </Button></Link>
+ 
+  <Link to="/Daaz2"><Button variant="primary" size="lg" width="80%">
+          Proxima pagina
+        </Button></Link>
+</div></center>
+    </Container>
   );
 }
 
+export default Series;
