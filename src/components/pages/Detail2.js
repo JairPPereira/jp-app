@@ -35,7 +35,7 @@ function Details2() {
      
       <div className="details2">
         <h1>{movie.title}</h1>
-
+<image src=""></image>
         
         <span>Sinopse: {movie.sinopse}</span>
 

@@ -42,6 +42,21 @@ A Estrada Real</Card.Title>
       </Card.Body>
     </Card></center>
 
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/4vCYVtIhiYSUry1lviA7CKPUB5Z.jpg" />
+      <Card.Body>
+        <Card.Title>3
+Lorde Snow</Card.Title>
+        <Card.Text><p2>Ned descobre a extravagância de Crown; Jon Snow impressiona Tyrion; Catelyn segue o marido até Porto Real; Arya estuda esgrima.</p2>
+        </Card.Text>
+        <Link to="./Gamert1e3"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
     
 
           <p><br /></p>
