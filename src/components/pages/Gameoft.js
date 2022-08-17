@@ -36,7 +36,7 @@ O Inverno Está Chegando</Card.Title>
 A Estrada Real</Card.Title>
         <Card.Text><p2>Quando Bran miraculosamente sobrevive a uma queda da torre, Cersei e Jaime conspiram para assegurar seu silêncio; Jon Snow e Tyrion se dirigem à Muralha; ao se tornar o braço direito do Rei, Ned deixa Winterfell com suas filhas Sansa e Arya.</p2>
         </Card.Text>
-        <Link to="./Gamert1e1"><Button variant="primary" size="lg" width="100%">
+        <Link to="./Gamert1e2"><Button variant="primary" size="lg" width="100%">
       Assistir
         </Button></Link>
       </Card.Body>
