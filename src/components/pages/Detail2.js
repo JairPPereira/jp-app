@@ -21,7 +21,7 @@ function Details2() {
         title,
         image: `${imagePath}${poster_path}`,
         sinopse: overview,
-        releaseDate: release_date
+        releaseDate: release_date,
       }
       setMovie(movie)
     })
@@ -33,8 +33,9 @@ function Details2() {
       <div className="movie">
     
      
-      <div className="details">
+      <div className="details2">
         <h1>{movie.title}</h1>
+
         
         <span>Sinopse: {movie.sinopse}</span>
 
@@ -42,7 +43,7 @@ function Details2() {
         
        
 
-       </div>
+       </div></div>
          
         <span><Link to={`/${movie.id}`}><Button variant="primary" size="lg" width="80%">
           Assistir
@@ -50,8 +51,8 @@ function Details2() {
 
      
 
-         </div>
-       <div></div>
+       
+      
     </Container>
 
     

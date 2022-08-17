@@ -11,8 +11,9 @@ export default function Gameoft() {
 
   return (
     <>
-      <h1 className='gameoft'>
+
         <center>
+          <p></p>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/xIfvIM7YgkADTrqp23rm3CLaOVQ.jpg" />
       <Card.Body>
@@ -26,35 +27,27 @@ O Inverno Está Chegando</Card.Title>
       </Card.Body>
     </Card></center>
 
-        <nav>
-          <p><br /></p>
-          <Card>
-      <Card.Body><Link to="./Boasnovas"><Button variant="primary" size="lg" width="100%">
-      Boas novas
-        </Button></Link></Card.Body>
-    </Card>
-   
-    <Card>
-    <Card.Body><a href="http://video01.soultv.com.br/cnnbrasil/cnnbrasil/chunklist_w1048115623.m3u8"><Button variant="primary" size="lg" width="100%">
-    CNN Brasil - Apenas para navegadores mobile
-        </Button></a></Card.Body>
-    </Card>
-    <Card>
-    <Card.Body><Link to="./Sbt"><Button variant="primary" size="lg" width="100%">
-    Sbt
-        </Button></Link></Card.Body>
-    </Card>
-    <Card>
-    <Card.Body><Link to="./Aturmadam24"><Button variant="primary" size="lg" width="100%">
-    Teste
-        </Button></Link></Card.Body>
-    </Card>
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/icjOgl5F9DhysOEo6Six2Qfwcu2.jpg" />
+      <Card.Body>
+        <Card.Title>2
+A Estrada Real</Card.Title>
+        <Card.Text><p2>Quando Bran miraculosamente sobrevive a uma queda da torre, Cersei e Jaime conspiram para assegurar seu silêncio; Jon Snow e Tyrion se dirigem à Muralha; ao se tornar o braço direito do Rei, Ned deixa Winterfell com suas filhas Sansa e Arya.</p2>
+        </Card.Text>
+        <Link to="./Gamert1e1"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    
 
           <p><br /></p>
 
 
 
-        </nav></h1>
 
     </>
 

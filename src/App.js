@@ -211,6 +211,8 @@ import Aturmadam24 from './components/pages/Aturmadam24';
 import Gamert1e1 from './components/pages/Gamert1e1';
 import Gameoft from './components/pages/Gameoft';
 import Details2 from './components/pages/Detail2';
+import Gameoftr from './components/pages/Gameoftr';
+import Gamert1e2 from './components/pages/Gamert1e2';
 
 
 
@@ -429,7 +431,9 @@ function App() {
         <Route path='/707214' component={Ateofinal} />
         <Route path='/aturmadam24' component={Aturmadam24} />
         <Route path='/Gamert1e1' component={Gamert1e1} />
-        <Route path='/1399' component={Gameoft} />
+        <Route path='/Gamert1e2' component={Gamert1e2} />
+        <Route path='/gameoft' component={Gameoft} />
+        <Route path='/1399' component={Gameoftr} />
         
         
    
