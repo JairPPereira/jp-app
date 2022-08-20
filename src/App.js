@@ -235,6 +235,24 @@ import Disneyc from './components/pages/Disneyc';
 import Cnnbr from './components/pages/Cnnbr';
 import Morbius from './components/pages/Morbius';
 import Afamiliab from './components/pages/Afamiliab';
+import TVsp from './components/pages/Tvsp';
+import Bandsp from './components/pages/Bandsp';
+import Dazn from './components/pages/Dazn';
+import Commebol1 from './components/pages/Commebol1';
+import Premier from './components/pages/Premier';
+import Premiere2 from './components/pages/Premiere2';
+import Agenteo from './components/pages/Agenteo';
+import Jornalismo from './components/pages/Jornalismo';
+import Jogosv from './components/pages/Jogosv';
+import Espn from './components/pages/Espn';
+import Sporttv from './components/pages/Sporttv';
+import Jogosvec from './components/pages/Jogosvec';
+import Sporttv2 from './components/pages/Sporttv2';
+import Tvab from './components/pages/Tvab';
+import Conmebol2 from './components/pages/Conmebol2';
+import Espn2 from './components/pages/Espn2';
+import Conmebol3 from './components/pages/Conmebol3';
+import Sporttv3 from './components/pages/Sporttv3';
 
 
 
@@ -259,6 +277,16 @@ function App() {
         <Route path='/daaz7' component={Daaz7} />
         <Route path='/daaz8' component={Daaz8} />
         <Route path='/tvs' component={TVs} />
+        <Route path='/tvab' component={Tvab} />
+        <Route path='/jornalismo' component={Jornalismo} />
+        <Route path='/tvsp' component={TVsp} />
+        <Route path='/bandsp' component={Bandsp} />
+        <Route path='/dazn' component={Dazn} />
+        <Route path='/commebol1' component={Commebol1} />
+        <Route path='/conmebol2' component={Conmebol2} />
+        <Route path='/conmebol3' component={Conmebol3} />
+        <Route path='/premier' component={Premier} />
+        <Route path='/premiere2' component={Premiere2} />
         <Route path='/radios' component={Radios} />
         <Route path='/acao' component={Acao} />
         <Route path='/animacao' component={Animacao} />
@@ -478,6 +506,15 @@ function App() {
         <Route path='/cnnbr' component={Cnnbr} />
         <Route path='/526896' component={Morbius} />
         <Route path='/11041' component={Afamiliab} />
+        <Route path='/725201' component={Agenteo} />
+        <Route path='/70160' component={Jogosv} />
+        <Route path='/101299' component={Jogosvec} />
+        <Route path='/espn' component={Espn} />
+        <Route path='/espn2' component={Espn2} />
+        <Route path='/sporttv' component={Sporttv} />
+        <Route path='/sporttv2' component={Sporttv2} />
+        <Route path='/sporttv3' component={Sporttv3} />
+
         
         
    
