@@ -257,6 +257,10 @@ import Espn3 from './components/pages/Espn3';
 import Tnts1 from './components/pages/Tnts1';
 import Premiere3 from './components/pages/Premiere3';
 import Jogosve1 from './components/pages/Jogosve1';
+import Jogosvef from './components/pages/Jogosvef';
+import Comedia2 from './components/pages/Comedia2';
+import Cafeina from './components/pages/Cafeina';
+import Acarga from './components/pages/Acarga';
 
 
 
@@ -296,6 +300,7 @@ function App() {
         <Route path='/acao' component={Acao} />
         <Route path='/animacao' component={Animacao} />
         <Route path='/comedia' component={Comedia} />
+        <Route path='/comedia2' component={Comedia2} />
         <Route path='/crime' component={Crime} />
         <Route path='/fantasia' component={Fantasia} />
         <Route path='/528085' component={A2067} />
@@ -515,6 +520,7 @@ function App() {
         <Route path='/70160' component={Jogosv} />
         <Route path='/101299' component={Jogosvec} />
         <Route path='/131631' component={Jogosve1} />
+        <Route path='/131634' component={Jogosvef} />
         <Route path='/espn' component={Espn} />
         <Route path='/espn2' component={Espn2} />
         <Route path='/espn3' component={Espn3} />
@@ -522,6 +528,8 @@ function App() {
         <Route path='/sporttv2' component={Sporttv2} />
         <Route path='/sporttv3' component={Sporttv3} />
         <Route path='/Tnts1' component={Tnts1} />
+        <Route path='/18654' component={Cafeina} />
+        <Route path='/507313' component={Acarga} />
 
         
         
