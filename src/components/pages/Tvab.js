@@ -35,6 +35,12 @@ export default function Tvab() {
     Rba
         </Button></Link></Card.Body>
     </Card>
+
+    <Card>
+    <Card.Body><Link to="./Megapix"><Button variant="primary" size="lg" width="100%">
+    Megapix
+        </Button></Link></Card.Body>
+    </Card>
     
 
 

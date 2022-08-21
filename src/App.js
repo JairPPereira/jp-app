@@ -261,6 +261,10 @@ import Jogosvef from './components/pages/Jogosvef';
 import Comedia2 from './components/pages/Comedia2';
 import Cafeina from './components/pages/Cafeina';
 import Acarga from './components/pages/Acarga';
+import Tntsport5 from './components/pages/Tntsports5';
+import Tntsports7 from './components/pages/Tntsports7';
+import Tntsports8 from './components/pages/Tntsports8';
+import Megapix from './components/pages/Megapix';
 
 
 
@@ -528,8 +532,12 @@ function App() {
         <Route path='/sporttv2' component={Sporttv2} />
         <Route path='/sporttv3' component={Sporttv3} />
         <Route path='/Tnts1' component={Tnts1} />
+        <Route path='/Tntsports5' component={Tntsport5} />
+        <Route path='/Tntsports7' component={Tntsports7} />
+        <Route path='/Tntsports8' component={Tntsports8} />
         <Route path='/18654' component={Cafeina} />
         <Route path='/507313' component={Acarga} />
+        <Route path='/Megapix' component={Megapix} />
 
         
         

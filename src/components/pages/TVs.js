@@ -18,7 +18,7 @@ export default function TVs() {
 
     <Card>
     <Card.Body><Link to="./Tvsp"><Button variant="primary" size="lg" width="100%">
-    Sport
+    Sports
         </Button></Link></Card.Body>
     </Card>
 
