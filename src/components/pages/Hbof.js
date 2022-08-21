@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './videoapp.css';
 
-export default function Startm() {
+export default function Hbof() {
   return (
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/star-1-hd"
+        src="https://embedflix.net/tv/hbo-family"
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

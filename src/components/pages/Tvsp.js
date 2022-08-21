@@ -207,20 +207,6 @@ export default function TVsp() {
       </Card.Body>
     </Card></center>
 
-        <center>
-          <p></p>
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://imagem.natelinha.uol.com.br/original/sportv-logo-visual-antigo_9271.jpeg" />
-      <Card.Body>
-        <Card.Title>Sport TV 3</Card.Title>
-        <Card.Text><p2>SporTV é um canal de televisão por assinatura brasileiro. Foi lançado em 10 de novembro de 1991 sob o nome de Top Sport, alterado para o atual em 1994. Tem dois canais irmãos, o SporTV 2 e SporTV 3.</p2>
-        </Card.Text>
-        <Link to="./Sporttv3"><Button variant="primary" size="lg" width="100%">
-      Assistir
-        </Button></Link>
-      </Card.Body>
-    </Card></center>
-
     <center>
           <p></p>
       <Card style={{ width: '18rem' }}>
@@ -272,20 +258,6 @@ export default function TVsp() {
         <Card.Text><p2>No portal do TNT Sports você vê todas as notícias e melhores momentos da Champions League, Brasileirão, Nations League e muito mais!</p2>
         </Card.Text>
         <Link to="./Tntsports8"><Button variant="primary" size="lg" width="100%">
-      Assistir
-        </Button></Link>
-      </Card.Body>
-    </Card></center>
-
-    <center>
-          <p></p>
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://static-assets.bamgrid.com/product/starplus/images/share-default.d72cf588f6d06cba22171f5ae44289d3.png" />
-      <Card.Body>
-        <Card.Title>Star+ 1</Card.Title>
-        <Card.Text><p2>Star+ é um serviço de streaming por assinatura de entretenimento e esportes da The Walt Disney Company, lançado em 31 de agosto de 2021 na América Latina, incluindo o Brasil. É um serviço separado para o público adulto somente nesta região.</p2>
-        </Card.Text>
-        <Link to="./Startm"><Button variant="primary" size="lg" width="100%">
       Assistir
         </Button></Link>
       </Card.Body>

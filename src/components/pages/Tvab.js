@@ -36,11 +36,7 @@ export default function Tvab() {
         </Button></Link></Card.Body>
     </Card>
 
-    <Card>
-    <Card.Body><Link to="./Megapix"><Button variant="primary" size="lg" width="100%">
-    Megapix
-        </Button></Link></Card.Body>
-    </Card>
+    
     
 
 
@@ -55,6 +51,34 @@ export default function Tvab() {
 
         </nav></h1>
         <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/pt/9/9e/Logotipo_da_TV_Globo.png" />
+      <Card.Body>
+        <Card.Title>Globo Minas</Card.Title>
+        <Card.Text><p2>TV Globo Minas é uma emissora de televisão brasileira sediada em Belo Horizonte, capital do estado de Minas Gerais. Opera no canal 12 e é uma emissora própria da TV Globo, sendo pertencente ao Grupo Globo.</p2>
+        </Card.Text>
+        <Link to="./Globom"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/pt/9/9e/Logotipo_da_TV_Globo.png" />
+      <Card.Body>
+        <Card.Title>Globo São Paulo</Card.Title>
+        <Card.Text><p2>TV Globo São Paulo é uma emissora de televisão brasileira sediada em São Paulo, capital do estado homônimo. Opera no canal 5 (18 UHF digital), e é uma emissora própria e co-geradora da TV Globo juntamente com a TV Globo Rio de Janeiro, sendo responsável por cobrir parte da Região Metropolitana de São Paulo e o município de Ibiúna.</p2>
+        </Card.Text>
+        <Link to="./Globosp"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    <center>
           <p></p>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/pt/7/75/SBT_Par%C3%A1.png" />

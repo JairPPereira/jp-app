@@ -17,16 +17,24 @@ export default function TVs() {
           <p><br /></p>
 
     <Card>
+    <Card.Body><Link to="./Tvab"><Button variant="primary" size="lg" width="100%">
+    TV Aberta
+        </Button></Link></Card.Body>
+    </Card>
+
+    <Card>
+    <Card.Body><Link to="./Tvsf"><Button variant="primary" size="lg" width="100%">
+    Filmes
+        </Button></Link></Card.Body>
+    </Card>
+
+
+    <Card>
     <Card.Body><Link to="./Tvsp"><Button variant="primary" size="lg" width="100%">
     Sports
         </Button></Link></Card.Body>
     </Card>
 
-    <Card>
-    <Card.Body><Link to="./Tvab"><Button variant="primary" size="lg" width="100%">
-    TV Aberta
-        </Button></Link></Card.Body>
-    </Card>
 
     <Card>
     <Card.Body><Link to="./Jornalismo"><Button variant="primary" size="lg" width="100%">

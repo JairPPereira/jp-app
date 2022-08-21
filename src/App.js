@@ -265,7 +265,13 @@ import Tntsport5 from './components/pages/Tntsports5';
 import Tntsports7 from './components/pages/Tntsports7';
 import Tntsports8 from './components/pages/Tntsports8';
 import Megapix from './components/pages/Megapix';
-import Startm from './components/pages/Startm';
+import Cadeoh from './components/pages/Cadeoh';
+import Jogadadm from './components/pages/Jogadadm';
+import Tvsf from './components/pages/Tvsf';
+import Hbof from './components/pages/Hbof';
+import Comedyc from './components/pages/Comedyc';
+import Globom from './components/pages/Globom';
+import Globosp from './components/pages/Globosp';
 
 
 
@@ -291,6 +297,7 @@ function App() {
         <Route path='/daaz8' component={Daaz8} />
         <Route path='/tvs' component={TVs} />
         <Route path='/tvab' component={Tvab} />
+        <Route path='/tvsf' component={Tvsf} />
         <Route path='/jornalismo' component={Jornalismo} />
         <Route path='/tvsp' component={TVsp} />
         <Route path='/bandsp' component={Bandsp} />
@@ -532,7 +539,8 @@ function App() {
         <Route path='/sporttv' component={Sporttv} />
         <Route path='/sporttv2' component={Sporttv2} />
         <Route path='/sporttv3' component={Sporttv3} />
-        <Route path='/startm' component={Startm} />
+        <Route path='/globom' component={Globom} />
+        <Route path='/globosp' component={Globosp} />
         <Route path='/Tnts1' component={Tnts1} />
         <Route path='/Tntsports5' component={Tntsport5} />
         <Route path='/Tntsports7' component={Tntsports7} />
@@ -540,6 +548,10 @@ function App() {
         <Route path='/18654' component={Cafeina} />
         <Route path='/507313' component={Acarga} />
         <Route path='/Megapix' component={Megapix} />
+        <Route path='/Hbof' component={Hbof} />
+        <Route path='/comedyc' component={Comedyc} />
+        <Route path='/68202' component={Cadeoh} />
+        <Route path='/228968' component={Jogadadm} />
 
         
         
