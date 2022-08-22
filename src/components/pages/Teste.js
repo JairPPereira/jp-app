@@ -1,57 +1,80 @@
-//import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import React, { Component } from 'react';
+import VideoPlayer from 'react-video-js-player';
+import { Link } from 'react-router-dom';
+import './videoapp.css';
 
-import { Container } from './styles';
+ 
+class Teste extends Component {
+    player = {}
+    state = {
+        video: {
+            src: "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661263436171439837916611770367661189414wmOy_DMujl65m6yOgikVdg&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+            type:"application/x-mpegURL",
 
-function Teste() {
-  const { id } = useParams()
-  const [movie, setMovie] = useState([])
+            poster: ""
+        }
+    }
+ 
+    onPlayerReady(player){
+        console.log("Player is ready: ", player);
+        this.player = player;
+    }
+ 
+    onVideoPlay(duration){
+        console.log("Video played at: ", duration);
+    }
+ 
+    onVideoPause(duration){
+        console.log("Video paused at: ", duration);
+    }
+ 
+    onVideoTimeUpdate(duration){
+        console.log("Time updated: ", duration);
+    }
+ 
+    onVideoSeeking(duration){
+        console.log("Video seeking: ", duration);
+    }
+ 
+    onVideoSeeked(from, to){
+        console.log(`Video seeked from ${from} to ${to}`);
+    }
+ 
+    onVideoEnd(){
+        console.log("Video ended");
+    }
+ 
+    render() {
+        return (
+            <div>
+                      <p><br /></p>
+                <VideoPlayer
+                    controls={true}
+                    src={this.state.video.src}
+                    poster={this.state.video.poster}
+                    width="720px" 
+                    height="auto"
+                    type="application/x-mpegURL"
+                    crossorigin="anonymous"
+                    onReady={this.onPlayerReady.bind(this)}
+                    onPlay={this.onVideoPlay.bind(this)}
+                    onPause={this.onVideoPause.bind(this)}
+                    onTimeUpdate={this.onVideoTimeUpdate.bind(this)}
+                    onSeeking={this.onVideoSeeking.bind(this)}
+                    onSeeked={this.onVideoSeeked.bind(this)}
+                    onEnd={this.onVideoEnd.bind(this)}
+                />
+                    <p><br /></p> 
+               <div className="nave">
+      <nav>
+      <p><br /></p>
+      <Link to="/">Home</Link>
 
-  const imagePath = 'https://image.tmdb.org/t/p/w500/'
+<p><br /></p>
 
-  useEffect(() => {
-    fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
-    .then(response => response.json())
-    .then(data => {
-      const {title, poster_path, release_date, overview} = data
-      const movie = {
-        id,
-        title,
-        image: `${imagePath}${poster_path}`,
-        sinopse: overview,
-        releaseDate: release_date
-      }
-      setMovie(movie)
-    })
-  }, [id])
-
-  return (<>
-    <Container>
-      <div className="movie">
-      <img src={movie.image} alt={movie.sinopse}/>
-     
-      <div className="details">
-        <h1>{movie.title}</h1>
-        
-        <span>Sinopse: {movie.sinopse}</span>
-
-        <span className='release-date'>Release date: {movie.releaseDate}</span>
-       
-
-        <Link to="/"><button>Go Back</button></Link></div>
-         
-       
-
-     
-
-         </div>
-       <div></div>
-    </Container>
-
-    
-</>
-  );
+      </nav></div></div>
+            
+        );
+    }
 }
-
 export default Teste;

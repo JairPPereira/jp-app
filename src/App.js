@@ -272,6 +272,7 @@ import Hbof from './components/pages/Hbof';
 import Comedyc from './components/pages/Comedyc';
 import Globom from './components/pages/Globom';
 import Globosp from './components/pages/Globosp';
+import Teste2 from './components/pages/Teste2';
 
 
 
@@ -411,7 +412,7 @@ function App() {
         <Route path='/556018' component={Kv1} />
         <Route path='/653024' component={Ocomitedd} />
         <Route path='/769749' component={Fundingyou} />
-        <Route path='/test' component={Teste} />
+        <Route path='/teste' component={Teste} />
         <Route path='/23520' component={Fungindodopassado} />
         <Route path='/391486' component={Atravessia} />
         <Route path='/157485' component={Aturmadamonica} />
@@ -552,6 +553,9 @@ function App() {
         <Route path='/comedyc' component={Comedyc} />
         <Route path='/68202' component={Cadeoh} />
         <Route path='/228968' component={Jogadadm} />
+        <Route path='/teste2' component={Teste2} />
+
+
 
         
         
