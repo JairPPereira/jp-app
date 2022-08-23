@@ -273,6 +273,10 @@ import Comedyc from './components/pages/Comedyc';
 import Globom from './components/pages/Globom';
 import Globosp from './components/pages/Globosp';
 import Teste2 from './components/pages/Teste2';
+import Epiphaneap from './components/pages/Epiphaneap';
+import Ajornadauvt from './components/pages/Ajornadauvt';
+import Daaz9 from './components/pages/Daaz9';
+import Opredadora from './components/pages/Opredadora';
 
 
 
@@ -296,6 +300,7 @@ function App() {
         <Route path='/daaz6' component={Daaz6} />
         <Route path='/daaz7' component={Daaz7} />
         <Route path='/daaz8' component={Daaz8} />
+        <Route path='/daaz9' component={Daaz9} />
         <Route path='/tvs' component={TVs} />
         <Route path='/tvab' component={Tvab} />
         <Route path='/tvsf' component={Tvsf} />
@@ -554,6 +559,9 @@ function App() {
         <Route path='/68202' component={Cadeoh} />
         <Route path='/228968' component={Jogadadm} />
         <Route path='/teste2' component={Teste2} />
+        <Route path='/664474' component={Epiphaneap} />
+        <Route path='/45767' component={Ajornadauvt} />
+        <Route path='/766507' component={Opredadora} />
 
 
 

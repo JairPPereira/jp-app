@@ -4,14 +4,13 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Teste extends Component {
+class Ajornadauvt extends Component {
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661371396118308712216612849961406335362mZ-LKENSEtIsA5CqmVQ0dw&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
-            type:"application/vnd.apple.mpegurl",
+            src: "https://siloh.pluto.tv/c6009f_pluto/clip/6078349633e416001a40d349_A_Jornada_BR/720p/20210415_054159/hls/0-end/master.m3u8",
 
-            poster: ""
+            poster: "https://www.themoviedb.org/t/p/original/zN473ctORUDm9VZqIgQKXO3ffRZ.jpg"
         }
     }
  
@@ -45,7 +44,9 @@ class Teste extends Component {
     }
  
     render() {
-        return (
+        return (<div style={{ 
+            backgroundImage: `url("https://www.themoviedb.org/t/p/original/17rW4DXtF4s9ebBJdOvRuajcgls.jpg")` 
+          }}>
             <div>
                       <p><br /></p>
                 <VideoPlayer
@@ -53,8 +54,7 @@ class Teste extends Component {
                     src={this.state.video.src}
                     poster={this.state.video.poster}
                     width="720px" 
-                    type="application/x-mpegURL"
-                    crossorigin="anonymous"
+                    height="auto"
                     onReady={this.onPlayerReady.bind(this)}
                     onPlay={this.onVideoPlay.bind(this)}
                     onPause={this.onVideoPause.bind(this)}
@@ -63,7 +63,7 @@ class Teste extends Component {
                     onSeeked={this.onVideoSeeked.bind(this)}
                     onEnd={this.onVideoEnd.bind(this)}
                 />
-                    <p><br /></p> 
+                    <p><br /></p> </div>
                <div className="nave">
       <nav>
       <p><br /></p>
@@ -76,4 +76,4 @@ class Teste extends Component {
         );
     }
 }
-export default Teste;
+export default Ajornadauvt;
