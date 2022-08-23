@@ -7,7 +7,7 @@ export default function Espn3() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/espn-3"
+        src="https://canais.m3u8live.ml/v.php?id=Espn3"
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

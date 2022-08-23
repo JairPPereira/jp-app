@@ -7,7 +7,7 @@ export default function Bandsp() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/bandsport" 
+        src="https://embed.tyflex.site/v.php?id=bandsports" 
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

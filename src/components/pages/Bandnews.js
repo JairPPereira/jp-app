@@ -7,7 +7,7 @@ export default function Bandnews() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/bandnews" 
+        src="https://canais.m3u8live.ml/v.php?id=bandnews" 
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

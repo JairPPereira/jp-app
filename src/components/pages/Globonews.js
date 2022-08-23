@@ -7,7 +7,7 @@ export default function Globonews() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/br-globo-news-hd"
+        src="https://canais.m3u8live.ml/v.php?id=GloboNews"
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

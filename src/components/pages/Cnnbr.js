@@ -7,7 +7,7 @@ export default function Cnnbr() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://jppfilmesonline.blogspot.com/p/untitled-1-download-video-file.html"
+        src="https://canais.m3u8live.ml/v.php?id=CNNBrasil"
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

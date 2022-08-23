@@ -7,7 +7,7 @@ export default function Sporttv3() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/sportv-3-hd"
+        src="https://embed.tyflex.site/v.php?id=SporTV3"
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

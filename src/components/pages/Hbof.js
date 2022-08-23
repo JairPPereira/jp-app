@@ -7,7 +7,7 @@ export default function Hbof() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/hbo-family"
+        src="https://canais.m3u8live.ml/v.php?id=HBO"
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

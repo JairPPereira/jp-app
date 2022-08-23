@@ -7,7 +7,7 @@ export default function Premiere3() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/prfc-3-hd" 
+        src="https://canais.m3u8live.ml/v.php?id=Premiere3" 
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

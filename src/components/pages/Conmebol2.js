@@ -7,7 +7,7 @@ export default function Conmebol2() {
     <div>
           <p><br /></p>
       <iframe
-        src="https://embedflix.net/tv/conmebol-tv-2-hd" 
+        src="https://canais.m3u8live.ml/v.php?id=Conmebol2" 
         target="_blank"
         frameborder="0"
         width="100%" height="600px"
