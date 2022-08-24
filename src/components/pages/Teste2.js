@@ -8,7 +8,8 @@ class Teste2 extends Component {
     player = {}
     state = {
         video: {
-            src: "http://www.portalcultura.com.br/playerhtml/funtelpa/tv_funtelpa/chunklist_w1775737946.m3u8",
+            src: "https://tv.amplitudetelecom.com.br/media/n/BZmXnZu2y2G1mZiXndG/a/BZmXnZu2y2G1mZiXndG/720p/chunks.m3u8?ch=BZmXnZu2y2G1mZiXndG&t=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjEzMjk1NTEsInN1YiI6Im1haW4ub3JnIzE1ODYyODA1OTEiLCJpYXQiOjE2NjEyOTM1NTF9.D_-e5ftrRYxCHhYUaHJU8gvFmx2NsxArhJY3q7WWLyI",
+            type:"application/vnd.apple.mpegurl",
 
             poster: ""
         }
@@ -52,7 +53,8 @@ class Teste2 extends Component {
                     src={this.state.video.src}
                     poster={this.state.video.poster}
                     width="720px" 
-                    height="auto"
+                    type="application/x-mpegURL"
+                    crossorigin="anonymous"
                     onReady={this.onPlayerReady.bind(this)}
                     onPlay={this.onVideoPlay.bind(this)}
                     onPause={this.onVideoPause.bind(this)}
