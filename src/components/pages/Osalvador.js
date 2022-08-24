@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Teste2 extends Component {
+class Osalvador extends Component {
     player = {}
     state = {
         video: {
-            src: "https://streamtape.com/v/2WOjMa2G0wfxxY/Topgun.mp4",
+            src: "https://play.prod.gcp.vix.services/the-savior_pt/the-savior_pt_1-1/play_v1_hls_1080p.m3u8",
 
             poster: ""
         }
@@ -74,4 +74,4 @@ class Teste2 extends Component {
         );
     }
 }
-export default Teste2;
+export default Osalvador;

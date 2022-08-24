@@ -277,6 +277,11 @@ import Epiphaneap from './components/pages/Epiphaneap';
 import Ajornadauvt from './components/pages/Ajornadauvt';
 import Daaz9 from './components/pages/Daaz9';
 import Opredadora from './components/pages/Opredadora';
+import Thewd from './components/pages/Thewd';
+import Recordrj from './components/pages/Recordrj';
+import Topgun from './components/pages/Topgun';
+import Osalvador from './components/pages/Osalvador';
+
 
 
 
@@ -562,6 +567,12 @@ function App() {
         <Route path='/664474' component={Epiphaneap} />
         <Route path='/45767' component={Ajornadauvt} />
         <Route path='/766507' component={Opredadora} />
+        <Route path='/1402' component={Thewd} />
+        <Route path='/recordrj' component={Recordrj} />
+        <Route path='/361743' component={Topgun} />
+        <Route path='/303021' component={Osalvador} />
+
+ 
 
 
 
