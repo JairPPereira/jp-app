@@ -8,7 +8,7 @@ class Teste2 extends Component {
     player = {}
     state = {
         video: {
-            src: "https://tv.amplitudetelecom.com.br/media/n/BZmXnZu2y2G1mZiXndG/a/BZmXnZu2y2G1mZiXndG/720p/chunks.m3u8?ch=BZmXnZu2y2G1mZiXndG&t=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjEzMjk1NTEsInN1YiI6Im1haW4ub3JnIzE1ODYyODA1OTEiLCJpYXQiOjE2NjEyOTM1NTF9.D_-e5ftrRYxCHhYUaHJU8gvFmx2NsxArhJY3q7WWLyI",
+            src: "https://ipv4-c002-bel001-assistemas-isp.1.oca.nflxvideo.net/range/27512299-28586847?o=1&v=85&e=1661344237&t=D2NJci4bQTD5ol5Wj8Nbabqz51ANYZi7ltpvBTHlznXXhS1gT3Uh4X1s21Xi477b2ck6tEkFFmlePUlsipj0KcVmY0Z8_uVcRACz3BR6uG5P4FV6VyOu9gdAhm43817DVlAs7j1FmaOhRVMisV0oW_A0tZMp23ziarWlxgC2LH91WP4nu_0rBGRHG3U0oVdDw8pJVCIxMjyBsG140wqPKUcZ7t865_lhRXFoqDyZVD2jgKS8stk-Wg5LMA&sc=Eq%176%14PSh%07%5B%7CZCzoVxeX%60%06uMqx%05%04W%7DU%11%16%5D%0E%7C%60(EZ%7Bm%24Uh%15%04%1C%5DiCT%40c%10Xx",
             type:"application/vnd.apple.mpegurl",
 
             poster: ""
