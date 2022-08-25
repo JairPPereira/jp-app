@@ -1,52 +1,69 @@
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Movie, MovieList } from './styles';
+import React from 'react';
+import '../../App.css';
+import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 
-function Series() {
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-  const imagePath = 'https://image.tmdb.org/t/p/w500/'
-
-  const [movies, setMovies] = useState([])
-
-  useEffect(() => {
-    fetch(`https://api.themoviedb.org/4/list/8213783?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
-    .then(response => response.json())
-    .then(data => {
-      setMovies(data.results)
-    })
-  }, [])
+export default function Series() {
 
   return (
+    <>
 
-  <Container>
-      <MovieList>
-      {movies.map(movie => {
-        return (
-          <Movie key={movie.id}>
-            <Link to={`/details2/${movie.id}`}>
-              <img src={`${imagePath}${movie.poster_path}`} alt={movie.title}/>
-            </Link>
-            
-            <span>{movie.title}</span>
 
-          </Movie>
-        )
-      })}
-      </MovieList>
-      <center>
-        <div class="btn-group" role="group" aria-label="Exemplo básico">
-        <Link to="/daaz8"><Button variant="primary" size="lg" width="80%">
-          Pagina anterior
+       
+
+<CardGroup>
+       
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/l2ezB41chGDjXcKo24lseuXYtKP.jpg" />
+      <Card.Body>
+        <Card.Title>Game of Thrones (2011)</Card.Title>
+        <Link to="./Gameoft"><Button variant="primary" size="lg" width="100%">
+      Assistir
         </Button></Link>
- 
-  <Link to="/Daaz2"><Button variant="primary" size="lg" width="80%">
-          Proxima pagina
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lQmJRW6vwKSAROylB3JrrGJGccj.jpg" />
+      <Card.Body>
+        <Card.Title>Turma da Mônica (2022)</Card.Title>
+  <Link to="./157485"><Button variant="primary" size="lg" width="100%">
+      Assistir
         </Button></Link>
-</div></center>
-    </Container>
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xf9wuDcqlUPWABZNeDKPbZUjWx0.jpg" />
+      <Card.Body>
+        <Card.Title>The Walking Dead (2010)</Card.Title>
+
+        <Link to="./1402"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+   
+
+
+    <p></p></CardGroup>
+
+    </>
+
+
+
   );
 }
 
-export default Series;

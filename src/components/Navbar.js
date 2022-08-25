@@ -50,6 +50,7 @@ function Navbar() {
             <Link
               to='/Porcategoria'
               className='nav-links'
+              
               onClick={closeMobileMenu}
             >
               Filmes Por Categoria<i className='fas fa-caret-down' />
@@ -57,14 +58,7 @@ function Navbar() {
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
-          <li>
-            <Link
-              to='/series'
-              className='nav-links-mobile'
-              onClick={closeMobileMenu}
-            >Series
-            </Link>
-          </li>
+          
             <Link
               to='/tvs'
               className='nav-links'
@@ -81,7 +75,14 @@ function Navbar() {
               Rádios
             </Link>
           </li>
-          
+          <li className='nav-item'><Link
+              to='/series'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Séries
+            </Link>
+          </li>
         </ul>
 
       </nav>
