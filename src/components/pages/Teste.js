@@ -8,10 +8,11 @@ class Teste extends Component {
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-01.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661458603109449947316613722031577512653A0tlsrnp0Dlx4B0UjrtEwg&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
-            type:"application/vnd.apple.mpegurl",
+            src: "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661549621710777821116614632211150751196m5u7GwD_YEMOtP1z5pn39w&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+           
+          
 
-            poster: ""
+            poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Logotipo_da_Rede_Liberal.png/200px-Logotipo_da_Rede_Liberal.png"
         }
     }
  

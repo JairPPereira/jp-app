@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './videoapp.css';
 
-export default function Sbt() {
+export default function Ossimpson() {
   return (
     <div>
           <p><br /></p>
       <iframe
-        src="https://www.youtube.com/embed/ABVQXgr2LW4?autoplay=true"
+        src="https://embed.warezcdn.net/serie/tt0096697"
         target="_blank"
         frameborder="0"
         width="100%" height="600px"

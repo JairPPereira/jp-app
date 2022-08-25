@@ -286,6 +286,9 @@ import Redetv from './components/pages/Redetv';
 import Recordsc from './components/pages/Recordsc';
 import Poderel from './components/pages/Poderel';
 import Linewalker2 from './components/pages/Linewalker2';
+import Superhli from './components/pages2/Superhli';
+import Ossimpson from './components/pages2/Ossimpson';
+import Ummaluconp from './components/pages2/Ummaluconp';
 
 
 
@@ -581,6 +584,9 @@ function App() {
         <Route path='/redetv' component={Redetv} />
         <Route path='/15941' component={Poderel} />
         <Route path='/589157' component={Linewalker2} />
+        <Route path='/13805' component={Superhli} />
+        <Route path='/ossimpson' component={Ossimpson} />
+        <Route path='/ummaluconp' component={Ummaluconp} />
 
  
 

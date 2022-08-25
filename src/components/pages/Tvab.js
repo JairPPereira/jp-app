@@ -192,7 +192,7 @@ export default function Tvab() {
         <Card.Title>Teste2</Card.Title>
         <Card.Text><p2></p2>
         </Card.Text>
-        <Link to="./Teste2a"><Button variant="primary" size="lg" width="100%">
+        <Link to="./Teste2"><Button variant="primary" size="lg" width="100%">
       Assistir
         </Button></Link>
       </Card.Body>
