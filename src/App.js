@@ -281,6 +281,11 @@ import Thewd from './components/pages/Thewd';
 import Recordrj from './components/pages/Recordrj';
 import Topgun from './components/pages/Topgun';
 import Osalvador from './components/pages/Osalvador';
+import Obsessao from './components/pages/Obsessao';
+import Redetv from './components/pages/Redetv';
+import Recordsc from './components/pages/Recordsc';
+import Poderel from './components/pages/Poderel';
+import Linewalker2 from './components/pages/Linewalker2';
 
 
 
@@ -569,8 +574,13 @@ function App() {
         <Route path='/766507' component={Opredadora} />
         <Route path='/1402' component={Thewd} />
         <Route path='/recordrj' component={Recordrj} />
+        <Route path='/recordsc' component={Recordsc} />
         <Route path='/361743' component={Topgun} />
         <Route path='/303021' component={Osalvador} />
+        <Route path='/332672' component={Obsessao} />
+        <Route path='/redetv' component={Redetv} />
+        <Route path='/15941' component={Poderel} />
+        <Route path='/589157' component={Linewalker2} />
 
  
 

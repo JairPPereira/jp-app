@@ -130,6 +130,34 @@ export default function Tvab() {
     <center>
           <p></p>
       <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" />
+      <Card.Body>
+        <Card.Title>TV Record SC</Card.Title>
+        <Card.Text><p2></p2>
+        </Card.Text>
+        <Link to="./Recordsc"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://skytvplanos.com.br/img/channels/lg-16-canal-rede-tv.png" />
+      <Card.Body>
+        <Card.Title>Rede Tv</Card.Title>
+        <Card.Text><p2>RedeTV! é uma rede de televisão comercial brasileira com sede em Osasco, município da Região Metropolitana de São Paulo, pertencente ao Grupo Amilcare Dallevo e ao Grupo Marcelo de Carvalho.</p2>
+        </Card.Text>
+        <Link to="./Redetv"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="https://img.radios.com.br/radio/xl/radio13213_1559217338.png" />
       <Card.Body>
         <Card.Title>FM O Dia</Card.Title>
