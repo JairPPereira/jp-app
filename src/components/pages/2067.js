@@ -11,7 +11,7 @@ class A2067 extends Component {
         video: {
             src: "https://video.wixstatic.com/video/e16db6_0d30dd7bf2424a7780b2c5f955db0914/720p/mp4/file.mp4",
 
-            poster: ""
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/5UkzNSOK561c2QRy2Zr4AkADzLT.jpg"
         }
     }
  

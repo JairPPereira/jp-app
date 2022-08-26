@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Teste2 extends Component {
+class Vinhodv extends Component {
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-01.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661570286112459052416614838861312999324ESn1NBXv_KvfzFC4vpVVAQ&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+            src: "https://siloh.pluto.tv/693_pluto/clip/62b37bc8a83a1b0013db3c9c_Wine_of_Summer_BR/720p/20220622_133000/hls/0-end/master.m3u8",
 
-            poster: ""
+            poster: "https://www.themoviedb.org/t/p/original/wqJwjbar7mpQ95ZyitMDVKgg36F.jpg"
         }
     }
  
@@ -74,4 +74,4 @@ class Teste2 extends Component {
         );
     }
 }
-export default Teste2;
+export default Vinhodv;
