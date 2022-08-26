@@ -289,6 +289,8 @@ import Linewalker2 from './components/pages/Linewalker2';
 import Superhli from './components/pages2/Superhli';
 import Ossimpson from './components/pages2/Ossimpson';
 import Ummaluconp from './components/pages2/Ummaluconp';
+import Tropadeelite from './components/pages2/Tropadeelite';
+import Tropadeelite2 from './components/pages2/Tropadeelite2';
 
 
 
@@ -587,6 +589,8 @@ function App() {
         <Route path='/13805' component={Superhli} />
         <Route path='/ossimpson' component={Ossimpson} />
         <Route path='/ummaluconp' component={Ummaluconp} />
+        <Route path='/7347' component={Tropadeelite} />
+        <Route path='/47931' component={Tropadeelite2} />
 
  
 
