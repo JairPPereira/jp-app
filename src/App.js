@@ -301,6 +301,7 @@ import Teste3 from './components/pages/Teste3';
 import Warnertv from './components/pages/Warnertv';
 import Anuvem from './components/pages/Anuvem';
 import Aprincesaap from './components/pages/Apricesaap';
+import Friends from './components/pages/Friends';
 
 
 
@@ -611,6 +612,7 @@ function App() {
         <Route path='/warnertv' component={Warnertv} />
         <Route path='/661930' component={Anuvem} />
         <Route path='/785533' component={Aprincesaap} />
+        <Route path='/friends' component={Friends} />
 
  
 
