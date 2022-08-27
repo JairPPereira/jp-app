@@ -10,7 +10,7 @@ class Acarga extends Component {
         video: {
             src: "https://siloh.pluto.tv/487_pluto/clip/627939229431740013495653_Carga_BR/720p/20220509_085411/hls/0-end/master.m3u8",
 
-            poster: ""
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/xtHM9jGUP7IHzrPRkHB2YYlgRGW.jpg"
         }
     }
  

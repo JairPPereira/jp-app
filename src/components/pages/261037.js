@@ -10,7 +10,7 @@ class Ajusticeira extends Component {
         video: {
             src: "https://siloh.pluto.tv/367_pluto/clip/6272df8bb55dbf001353a1ba_Miss_Meadows_BR/720p/20220504_131819/hls/0-end/master.m3u8",
 
-            poster: ""
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/r0bkdPWHzuX4Xg23PAWoBSUCp8V.jpg"
         }
     }
  

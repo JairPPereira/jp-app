@@ -4,15 +4,13 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Teste extends Component {
+class Oreidamontanha extends Component {
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661638062123011124716615516621291573014QmdmhBJzKGpFrJD-YHB1tw&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
-           
-          
+            src: "https://play.prod.gcp.vix.services/ash-lad-mountain_pt/ash-lad-mountain_pt_1-1/play_v1_hls_1080p.m3u8",
 
-            poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Logotipo_da_Rede_Liberal.png/200px-Logotipo_da_Rede_Liberal.png"
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/iFMARpEJnSQBUDKzKvvRw6ATVF3.jpg"
         }
     }
  
@@ -54,8 +52,7 @@ class Teste extends Component {
                     src={this.state.video.src}
                     poster={this.state.video.poster}
                     width="720px" 
-                    type="application/x-mpegURL"
-                    crossorigin="anonymous"
+                    height="auto"
                     onReady={this.onPlayerReady.bind(this)}
                     onPlay={this.onVideoPlay.bind(this)}
                     onPause={this.onVideoPause.bind(this)}
@@ -77,4 +74,4 @@ class Teste extends Component {
         );
     }
 }
-export default Teste;
+export default Oreidamontanha;

@@ -115,6 +115,20 @@ export default function Tvsf() {
       </Card.Body>
     </Card></center>
 
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Warner2018LA.png" />
+      <Card.Body>
+        <Card.Title>Warner Channel</Card.Title>
+        <Card.Text><p2></p2>
+        </Card.Text>
+        <Link to="./Warnertv"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
 
 
     <p></p>
