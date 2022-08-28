@@ -9,7 +9,7 @@ class Teste2 extends Component {
     player = {}
     state = {
         video: {
-            src: "https://live-as-08-24.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661728555288073051316616421552018305217KTcxe_fHsvf9LiPQ2E1IkQ&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+            src: "https://vod.provider.plex.tv/library/parts/6306864742112-dash.mpd?X-Plex-Session-Identifier=vn7jkgredweao1x7pzx6izd8&X-Plex-Product=Plex%20Web&X-Plex-Version=4.89.1&X-Plex-Client-Identifier=d0yzzrm42oucmj03766m2cfs&X-Plex-Platform=Chrome&X-Plex-Platform-Version=104.0&X-Plex-Features=external-media%2Cindirect-media%2Chub-style-list&X-Plex-Model=hosted&X-Plex-Device=Android&X-Plex-Device-Name=Chrome&X-Plex-Device-Screen-Resolution=980x1780%2C320x712&X-Plex-Token=EKXrK4UGPTk2os736AYM&X-Plex-Language=pt-BR&Accept-Language=pt-BR",
 
             poster: ""
         }
