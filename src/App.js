@@ -306,6 +306,13 @@ import Amityvilleot from './components/pages/Amityvilleot';
 import Euronews from './components/pages/Euronews';
 import Parttk from './components/pages/Parttk';
 import Trezec from './components/pages/Trezec';
+import Cindiel from './components/pages/Cindiel';
+import Asfotosv from './components/pages/Asfotosv';
+import Alertav from './components/pages/Alertav';
+import Tvamulherb from './components/pages/Tvamulherb';
+import Homemasa from './components/pages/Homemasa';
+import Aerademc from './components/pages/Aerademc';
+import Megasvc from './components/pages/Megasvc';
 
 
 
@@ -621,6 +628,13 @@ function App() {
         <Route path='/euronews' component={Euronews} />
         <Route path='/parttk' component={Parttk} />
         <Route path='/347751' component={Trezec} />
+        <Route path='/cindiel' component={Cindiel} />
+        <Route path='/858815' component={Asfotosv} />
+        <Route path='/512195' component={Alertav} />
+        <Route path='/tvamulherb' component={Tvamulherb} />
+        <Route path='/homemasa' component={Homemasa} />
+        <Route path='/13256' component={Aerademc} />
+        <Route path='/52454' component={Megasvc} />
 
  
 

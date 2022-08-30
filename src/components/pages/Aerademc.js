@@ -9,14 +9,14 @@ import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  
-class Teste extends Component {
+class Aerademc extends Component {
     
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661854629370675072016617682296241529901DtyfWESMyV3y1DTnpV-TEA&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+            src: "https://siloh.pluto.tv/c6009f_pluto/clip/608add51a950470013a3a286_The_Mutant_Chronicles_BR/720p/20210429_092242/hls/0-end/master.m3u8",
 
-            poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Logotipo_da_Rede_Liberal.png/200px-Logotipo_da_Rede_Liberal.png"
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/bMx4zsTNUl6zZ5cYW9QwQd8aagL.jpg"
         }
     }
  
@@ -71,18 +71,17 @@ class Teste extends Component {
                 />
                     <p><br /></p> </Col></Row></Container>
                <div className="nave">
-     
-      <p><br /></p>
+               <p><br /></p>
 
-      <Link to="/"><Button variant="primary" size="lg" width="80%">
-      Home
-        </Button></Link>
+<Link to="/"><Button variant="primary" size="lg" width="80%">
+Home
+  </Button></Link>
 
 <p><br /></p>
 
-      </div></div>
+</div></div>
             
         );
     }
 }
-export default Teste;
+export default Aerademc;

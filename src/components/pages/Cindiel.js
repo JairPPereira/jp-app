@@ -3,20 +3,19 @@ import VideoPlayer from 'react-video-js-player';
 import { Link } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  
-class Teste extends Component {
+class Cindiel extends Component {
     
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401661854629370675072016617682296241529901DtyfWESMyV3y1DTnpV-TEA&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+            src: "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01329-ottera-cindie-samsungbr/playlist.m3u8",
 
-            poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Logotipo_da_Rede_Liberal.png/200px-Logotipo_da_Rede_Liberal.png"
+            poster: ""
         }
     }
  
@@ -71,18 +70,15 @@ class Teste extends Component {
                 />
                     <p><br /></p> </Col></Row></Container>
                <div className="nave">
-     
+      <nav>
       <p><br /></p>
-
-      <Link to="/"><Button variant="primary" size="lg" width="80%">
-      Home
-        </Button></Link>
+      <Link to="/">Home</Link>
 
 <p><br /></p>
 
-      </div></div>
+      </nav></div></div>
             
         );
     }
 }
-export default Teste;
+export default Cindiel;

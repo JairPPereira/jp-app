@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
 import { Link } from 'react-router-dom';
-import './videoapp.css';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
+import Container from 'react-bootstrap/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
  
 class A2067 extends Component {
+    
     player = {}
     state = {
         video: {
@@ -46,16 +51,16 @@ class A2067 extends Component {
  
     render() {
         return (
-            <div>
+            <div><Container fluid>
+            <Row>
+              <Col>
                       <p><br /></p>
-
                 <VideoPlayer
                     controls={true}
                     src={this.state.video.src}
-                    poster={this.state.video.poster}
-                    aspectRatio= "4:3"  
+                    poster={this.state.video.poster} 
                     width="720px" 
-                    height="auto"               
+                    height="auto"
                     onReady={this.onPlayerReady.bind(this)}
                     onPlay={this.onVideoPlay.bind(this)}
                     onPause={this.onVideoPause.bind(this)}
@@ -64,27 +69,19 @@ class A2067 extends Component {
                     onSeeked={this.onVideoSeeked.bind(this)}
                     onEnd={this.onVideoEnd.bind(this)}
                 />
-                    <p><br /></p> 
-                    <div className="nave">       
-      <nav>
-      <p><br /></p>
-      <Link to="/">Home</Link>
+                    <p><br /></p> </Col></Row></Container>
+               <div className="nave">
+               <p><br /></p>
 
-      <p><br /></p>
+<Link to="/"><Button variant="primary" size="lg" width="80%">
+Home
+  </Button></Link>
 
-</nav></div>
-  {" "}</div> 
+<p><br /></p>
+
+</div></div>
             
         );
     }
 }
-
-
-
-
-
-
-
-
-
 export default A2067;
