@@ -49,6 +49,11 @@ export default function Home() {
         </Button></Link></Card.Body>
     </Card>
     <Card>
+      <Card.Body> <Link to="/Novelas"><Button variant="primary" size="lg" width="80%">
+        Novelas
+        </Button></Link></Card.Body>
+    </Card>
+    <Card>
       <Card.Body><Link to="/Playlistyou"><Button variant="primary" size="lg" width="80%">
         Playlist de filmes do youtube
         </Button></Link></Card.Body>
@@ -61,6 +66,11 @@ export default function Home() {
     <Card>
       <Card.Body><Link to="/Radios"><Button variant="primary" size="lg" width="80%">
         Radios
+        </Button></Link></Card.Body>
+    </Card>
+    <Card>
+      <Card.Body><Link to="/Youtubeml"><Button variant="primary" size="lg" width="80%">
+        Playlist de Musicas do youtube
         </Button></Link></Card.Body>
     </Card>
     <Card>
