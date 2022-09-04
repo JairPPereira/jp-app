@@ -15,7 +15,7 @@ export default function Sbt() {
             <Row>
               <Col>
       <iframe
-        src="https://www.youtube.com/embed/ABVQXgr2LW4?autoplay=true"
+        src="https://www.youtube.com/embed/BAZ8tVEClZw"
         target="_blank"
         scrolling="no"
         data-draggable="none"

@@ -71,17 +71,7 @@ class Teste extends Component {
                     onEnd={this.onVideoEnd.bind(this)}
                 />
                     <p><br /></p> </Col></Row></Container>
-               <div className="nave">
-     
-      <p><br /></p>
-
-      <Link to="/"><Button variant="primary" size="lg" width="80%">
-      Home
-        </Button></Link>
-
-<p><br /></p>
-
-      </div>
+              
        <div className="nave">
      
       <p><br /></p>
