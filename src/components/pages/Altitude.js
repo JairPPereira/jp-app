@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
 import { Link } from 'react-router-dom';
-import './videoapp.css';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+
+import Container from 'react-bootstrap/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
  
-class Acasadomedo extends Component {
+class Altitude extends Component {
+    
     player = {}
     state = {
         video: {
-            src: "https://video.wixstatic.com/video/e16db6_e04b7ff875f84da6af6aead3aa711666/720p/mp4/file.mp4",
+            src: "https://siloh.pluto.tv/367_pluto/clip/6272df8bb55dbf001353a1ba_Miss_Meadows_BR/720p/20220504_131819/hls/0-end/master.m3u8",
 
-            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/gl3RKxaM65gyrvRoG3MffTYBoo5.jpg"
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/qGSud4sjZ62tVBnz4I8f03CHzVr.jpg"
         }
     }
  
@@ -45,13 +51,14 @@ class Acasadomedo extends Component {
  
     render() {
         return (
-            <div>
+            <div><Container fluid>
+            <Row>
+              <Col>
                       <p><br /></p>
                 <VideoPlayer
                     controls={true}
                     src={this.state.video.src}
-                    poster={this.state.video.poster}
-                    aspectRatio= "4:3"
+                    poster={this.state.video.poster} 
                     width="720px" 
                     height="auto"
                     onReady={this.onPlayerReady.bind(this)}
@@ -62,18 +69,20 @@ class Acasadomedo extends Component {
                     onSeeked={this.onVideoSeeked.bind(this)}
                     onEnd={this.onVideoEnd.bind(this)}
                 />
-                    <p><br /></p> 
+                    <p><br /></p> </Col></Row></Container>
                <div className="nave">
-      <nav>
+     
       <p><br /></p>
-      <Link to="/">Home</Link>
+
+      <Link to="/"><Button variant="primary" size="lg" width="80%">
+      Home
+        </Button></Link>
 
 <p><br /></p>
 
-      </nav></div>
-           {" "}</div>
+      </div></div>
             
         );
     }
 }
-export default Acasadomedo;
+export default Altitude;
