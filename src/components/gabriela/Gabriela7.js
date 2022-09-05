@@ -16,14 +16,14 @@ const videoJsOptions = {
   sources: [
     {
 
-      src: 'https://lb2x01.g1novelas.top/stream/720/MCtcZZT5viXBfYm/__001',
+      src: 'https://lb2x01.g1novelas.top/stream/720/ZUAAvtU9lSs62gJ/__001',
       type: 'video/mp4',
       
     },
   ],
 };
 
-const Gabriela1 = () =>
+const Gabriela7 = () =>
 {
   return (<>
 
@@ -50,7 +50,10 @@ Home
   
   )}
 
-  export default Gabriela1
+  export default Gabriela7
 
 
 
+
+
+  

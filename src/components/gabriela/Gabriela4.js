@@ -1,34 +1,41 @@
-import React from "react";
+import React from 'react';
+import Videojs from './video.js';
 import { Link } from 'react-router-dom';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-
 import Container from 'react-bootstrap/Container';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Gabriela4() {
-  return (
-    <div>
-          <p><br /></p>
-          <div><Container fluid>
-            <Row>
-              <Col>
-      <iframe
-        src="https://streamtape.com/e/oZxwlKkL4bSJzeo/"
-        target="_blank"
-        scrolling="no"
-        data-draggable="none"
-        marginwidth="0"
-        marginheight="0"
-        data-popup="none" 
-        frameborder="0"
-        width="100%" height="600px"
-        allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
-        title="video"
-      />{" "}
-      </Col></Row></Container>
-                  <div className="nave">
+
+
+
+const videoJsOptions = {
+  autoplay: false,
+  playbackRates: [0.5, 1, 1.25, 1.5, 2],
+  width: '720px',
+  controls: true,
+  poster: 'https://www.themoviedb.org/t/p/w500_and_h282_face/7sIhKIufEWofnVUILtGWUOjgwEv.jpg',
+  sources: [
+    {
+
+      src: 'https://lb2x01.g1novelas.top/stream/720/zkTpMciirIq8vGB/__001',
+      type: 'video/mp4',
+      
+    },
+  ],
+};
+
+const Gabriela4 = () =>
+{
+  return (<>
+
+  <Container fluid>
+            <p></p>
+              <div>
+    <Videojs {...videoJsOptions} />  </div>
+    
+    <p></p>
+   </Container>
+ 
+  <div className="nave">
      
                   <p><br /></p>
 
@@ -38,12 +45,12 @@ Home
 
 <p><br /></p>
 </div>
-</div></div>
+  
+  </>
+  
+  )}
 
-  );
-}
-
-
+  export default Gabriela4
 
 
 
