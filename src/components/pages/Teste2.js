@@ -1,52 +1,58 @@
-import React from "react";
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import './videoapp.css';
+import dashjs from 'dashjs';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Sbt() {
 
-  return (
-    <div>
-          <p><br /></p>
-          <div><Container fluid>
-            <Row>
-              <Col>
-      <iframe
-        src="https://www.youtube.com/embed/ABVQXgr2LW4?autoplay=true"
-        target="_blank"
-        scrolling="no"
-        data-draggable="none"
-        marginwidth="0"
-        marginheight="0"
-        data-popup="none" 
-        frameborder="0"
-        width="100%" height="600px"
-        allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
-        title="video"
-      />{" "}
-      </Col></Row></Container>
 
-                  <div className="nave">
-     
-                  <p><br /></p>
+ 
+class Teste2 extends Component {
+    constructor() {
+        super();
+        
+        this.state = {
+          url: null
+        };
+      }
+    
+      componentDidMount(){
+        let url = "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/hls-globo-bel_2359/playlist.m3u8";
+        let player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#videoPlayer"), url, true);
+      }
+    
+      render() {
+        return (
+          <div>
+            <Container fluid>
+      <Row><p><br /></p>
+        <Col><video id="videoPlayer" controls width="100%" height="auto"></video>
+        </Col>
+      </Row>
+    </Container><center>
+      
+    <nav>
+      <p><br /></p>
+ 
+      <Link to="/"><Button variant="primary" size="lg" width="80%">
+      Home
+        </Button></Link>
 
-<Link to="/"><Button variant="primary" size="lg" width="80%">
-Home
-  </Button></Link>
-  <div id="player">
-  
-  </div>
 <p><br /></p>
-</div>
-</div></div>
 
-  );
+      </nav></center>
+          </div>
+        );
+      }
+    
+
 }
 
 
-
-
-
+export default Teste2;
