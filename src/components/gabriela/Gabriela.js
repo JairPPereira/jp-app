@@ -25,7 +25,7 @@ export default function Gabriela() {
       
         <nav>
         <p><br /></p>
-  
+    
         
         <Card>
       <Card.Body><Link to="/gabriela1"><Button variant="primary" size="lg" width="100%">
