@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
 import { Link } from 'react-router-dom';
-import './videoapp.css';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
+import Container from 'react-bootstrap/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
  
-class Globonews extends Component {
+class Nocaute extends Component {
+    
     player = {}
     state = {
         video: {
-            src: "https://aipaipara.xyz/globo-news/tracks-v1a1/mono.m3u8?token=b5ceb14684d33cec958ef900cead666663b6ac43-e7f1bd685abb16d400e3bd3cb37763fe-1662752299-1662745099",
+            src: "https://play.prod.gcp.vix.services/knockout_pt/knockout_pt_1-1/play_v1_hls_1080p.m3u8",
 
-            poster: "https://ogimg.infoglobo.com.br/in/2939353-ac7-20b/FT1086A/Novamarca-da-Globo-News-que-muda-o-visual-no-dia-18-de-outubroDivulgacao.jpg"
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/c2mGtnEPP5Wmf12jBWp3btGu0Gc.jpg"
         }
     }
  
@@ -46,12 +51,14 @@ class Globonews extends Component {
  
     render() {
         return (
-            <div>
+            <div><Container fluid>
+            <Row>
+              <Col>
                       <p><br /></p>
                 <VideoPlayer
                     controls={true}
                     src={this.state.video.src}
-                    poster={this.state.video.poster}
+                    poster={this.state.video.poster} 
                     width="720px" 
                     height="auto"
                     onReady={this.onPlayerReady.bind(this)}
@@ -62,31 +69,20 @@ class Globonews extends Component {
                     onSeeked={this.onVideoSeeked.bind(this)}
                     onEnd={this.onVideoEnd.bind(this)}
                 />
-                    <p><br /></p> 
-                    <div className="nave">
-      <nav>
-      <center>
-        <div class="btn-group" role="group" aria-label="Exemplo básico">
-        <Link to="/globonews"><Button variant="primary" size="lg" width="80%">
-          Opção 1
-        </Button></Link>
- 
-  <Link to="/globonews2"><Button variant="primary" size="lg" width="80%">
-          Opção 2
-        </Button></Link>
-</div></center>
-
-      </nav></div>
-      <div className="nave">
-      <nav>
+                    <p><br /></p> </Col></Row></Container>
+               <div className="nave">
+     
       <p><br /></p>
-      <Link to="/">Home</Link>
+
+      <Link to="/"><Button variant="primary" size="lg" width="80%">
+      Home
+        </Button></Link>
 
 <p><br /></p>
 
-      </nav></div></div>
+      </div></div>
             
         );
     }
 }
-export default Globonews;
+export default Nocaute;
