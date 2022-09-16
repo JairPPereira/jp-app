@@ -344,6 +344,18 @@ import Liberdadefm from './components/pages/Liberdadefm';
 import Nocaute from './components/pages/Nocaute';
 import Aslegioese from './components/pages/Aslegioese';
 import Bandnews2 from './components/pages/Bandnews2';
+import Rittv from './components/pages/Rittv';
+import Kenanek from './components/pages/Kenanek';
+import Tntsport2 from './components/pages/Tntsport2';
+import Umpassadodepresente from './components/pages/Umpassadodepresente';
+import Oshomenssdm from './components/pages/Oshomenssdm';
+import Filmesn from './components/pages/Filmesn';
+import Sonhosroubados from './components/pages/Sonhosroubados';
+import Aestrada47 from './components/pages/Aestrada47';
+import Comedyc2 from './components/pages/Comedyc2';
+import Ocaminhodn from './components/pages/Ocaminhosn';
+import Beladonna from './components/pages/Beladonna';
+
 
 
 
@@ -700,6 +712,17 @@ function App() {
         <Route path='/58448' component={Nocaute} />
         <Route path='/622585' component={Aslegioese} />
         <Route path='/bandnews2' component={Bandnews2} />
+        <Route path='/rittv' component={Rittv} />
+        <Route path='/kenanek' component={Kenanek} />
+        <Route path='/tntsport2' component={Tntsport2} />
+        <Route path='/611207' component={Umpassadodepresente} />
+        <Route path='/227970' component={Oshomenssdm} />
+        <Route path='/filmesn' component={Filmesn} />
+        <Route path='/45170' component={Sonhosroubados} />
+        <Route path='/253020' component={Aestrada47} />
+        <Route path='/comedyc2' component={Comedyc2} />
+        <Route path='/47089' component={Ocaminhodn} />
+        <Route path='/71211' component={Beladonna} />
      
  
    

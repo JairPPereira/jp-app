@@ -9,15 +9,15 @@ import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  
-class Teste extends Component {
+class Umpassadodepresente extends Component {
     
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-01.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401663300922984203285316632145222965764636sH9rePo7DH6GG9khqeDFJw&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+            src: "https://video.wixstatic.com/video/e16db6_a20eb2097d7c4750998dcbc438958608/720p/mp4/file.mp4",
             crossorigin: "anonymous",
 
-            poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Logotipo_da_Rede_Liberal.png/200px-Logotipo_da_Rede_Liberal.png"
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/YZMpzCAQ8Ljnq2XOWkWOasexsw.jpg"
         }
     }
  
@@ -99,4 +99,4 @@ class Teste extends Component {
         );
     }
 }
-export default Teste;
+export default Umpassadodepresente;

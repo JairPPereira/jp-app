@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Comedyc() {
+export default function Rittv() {
   return (
     <div>
           <p><br /></p>
@@ -15,8 +15,8 @@ export default function Comedyc() {
             <Row>
               <Col>
       <iframe
-        src="https://embed.tyflex.site/v.php?id=comedycentral"
-        target="https://embed.tyflex.site/v.php?id=comedycentral"
+        src="https://www.youtube.com/embed/live_stream?channel=UCA0bOG0NUfJ855eDtHSxOkw&autoplay=1"
+        target="_blank"
         scrolling="no"
         data-draggable="none"
         marginwidth="0"
@@ -28,22 +28,7 @@ export default function Comedyc() {
         title="video"
       />{" "}
       </Col></Row></Container>
-       <div className="nave">
-     
-       <p><br /></p>
-                  <Link to="/Comedyc"><Button variant="primary" size="lg" width="80%">
-Opção 1
-  </Button></Link>
-
-  <Link to="/Comedyc2"><Button variant="primary" size="lg" width="80%">
-Opção 2
-  </Button></Link>
-
-
-<p><br /></p>
-</div>
-
-<div className="nave">
+                  <div className="nave">
      
                   <p><br /></p>
 
@@ -54,8 +39,6 @@ Home
 <p><br /></p>
 </div>
 </div></div>
-
-
 
   );
 }
