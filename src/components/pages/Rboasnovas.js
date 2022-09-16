@@ -1,66 +1,55 @@
-import * as React from "react";
-import ReactAudioPlayer from 'react-audio-player';
-import { Link } from 'react-router-dom';
-import './app.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
+import React, { Component } from "react";
 
-function Rboasnovas() {
+// Import your audio file
+import song from "https://ice01.kshost.com.br:8000/live";
+
+class Rboasnovas extends Component {
+  // Create state
+  state = {
+
+    // Get audio file in a variable
+    audio: new Audio(song),
+
+    // Set initial state of song
+    isPlaying: false,
+  };
+
+  // Main function to handle both play and pause operations
+  playPause =() => {
+
+    // Get state of song
+    let isPlaying = this.state.isPlaying;
+
+    if (isPlaying) {
+      // Pause the song if it is playing
+      this.state.audio.pause();
+    } else {
+
+      // Play the song if it is paused
+      this.state.audio.play();
+    }
+
+    // Change the state of song
+    this.setState({ isPlaying: !isPlaying });
+  };
+
+  render() {
     return (
-      <>
-<div className='pele'>
-<Container>
-    
-      <Row xs="auto">
-        <Col> 
-         
-         
-       
-     
-         
+      <div>
+        {/* Show state of song on website */}
+        <p>
+          {this.state.isPlaying ? 
+            "Song is Playing" : 
+            "Song is Paused"}
+        </p>
 
-  
-     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://cdn.webrad.io/images/logos/radiosaovivo-net/boas-novas-belem.png" />
-      <Card.Body>
-        <Card.Title>Rauland FM</Card.Title>
-      
-      </Card.Body>
-
-    </Card>
-    <ReactAudioPlayer
-            src="https://boasnovasaac.jmvstream.com/stream/1/"
-            controls
-         
-          />
-        </Col>
-       
-      </Row>
-
-
-      <Row xs="auto">
-        <Col> 
-      
-    
-  
-        </Col>
-       
-      </Row> 
-    </Container>
-    </div>
-       
-     
-        <div className="nave">
-        <nav>
-        <p><br /></p>
-        <Link to="/">Home</Link>
-        <p><br /></p>
-      
-        </nav></div>
-      </>
+        {/* Button to call our main function */}
+        <button onClick={this.playPause}>
+          Play | Pause
+        </button>
+      </div>
     );
   }
+}
 
-  export default  Rboasnovas;
+export default Rboasnovas;
