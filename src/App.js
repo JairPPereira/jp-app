@@ -355,6 +355,14 @@ import Aestrada47 from './components/pages/Aestrada47';
 import Comedyc2 from './components/pages/Comedyc2';
 import Ocaminhodn from './components/pages/Ocaminhosn';
 import Beladonna from './components/pages/Beladonna';
+import Afazenda from './components/pages/Afazenda';
+import Afazenda2 from './components/pages/Afazenda2';
+import Afazenda3 from './components/pages/Afazenda3';
+import Afazenda4 from './components/pages/Afazzenda4';
+import Apex from './components/pages/Apex';
+import Annabelle from './components/pages/Annabelle';
+
+
 
 
 
@@ -723,6 +731,15 @@ function App() {
         <Route path='/comedyc2' component={Comedyc2} />
         <Route path='/47089' component={Ocaminhodn} />
         <Route path='/71211' component={Beladonna} />
+        <Route path='/afazenda' component={Afazenda} />
+        <Route path='/afazenda2' component={Afazenda2} />
+        <Route path='/afazenda3' component={Afazenda3} />
+        <Route path='/afazenda4' component={Afazenda4} />
+        <Route path='/763164' component={Apex} />
+        <Route path='/250546' component={Annabelle} />
+       
+  
+
      
  
    
