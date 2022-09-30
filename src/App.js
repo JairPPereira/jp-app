@@ -376,6 +376,7 @@ import Desejodv from './components/pages2/Desejodv';
 import Terraformarsmm from './components/pages2/Terraformarsmm';
 import Apresa from './components/pages2/Apresa';
 import Foradecontrole from './components/pages2/Foradecontrole';
+import Calculoiv from './components/pages2/Calculoiv';
 
 
 
@@ -767,6 +768,7 @@ function App() {
         <Route path='/330070' component={Terraformarsmm} />
         <Route path='/372412' component={Apresa} />
         <Route path='/8944' component={Foradecontrole} />
+        <Route path='/calculoiv' component={Calculoiv} />
        
   
 
