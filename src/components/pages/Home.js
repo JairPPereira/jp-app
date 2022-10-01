@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Movie, MovieList } from './styles';
+import Container from 'react-bootstrap/Container';
+import { Movie, MovieList } from './styles';
 import Button from 'react-bootstrap/Button';
 
 
@@ -19,8 +20,8 @@ function Home() {
   }, [])
 
   return (
-
-  <Container>
+<Container fluid>
+  
       <MovieList>
       {movies.map(movie => {
         return (
