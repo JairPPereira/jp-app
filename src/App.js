@@ -376,7 +376,19 @@ import Desejodv from './components/pages2/Desejodv';
 import Terraformarsmm from './components/pages2/Terraformarsmm';
 import Apresa from './components/pages2/Apresa';
 import Foradecontrole from './components/pages2/Foradecontrole';
+import Federal from './components/pages2/Federal';
+import Comamorv from './components/pages2/Comamorv';
+import Detencao from './components/pages2/Detencao';
+import Lilaee from './components/pages2/Lilaee';
+import Sosenhorda from './components/pages2/Sosenhorda';
+import Stevenu from './components/pages2/Stevenu';
+import Kungffc from './components/pages2/Kungffc';
+import Homensemfuria from './components/pages2/Homensemfuria';
+import Aocasiaofl from './components/pages2/Aocasiaofl';
 import Calculoiv from './components/pages2/Calculoiv';
+import Atravesdmj from './components/pages2/Atravesdmj';
+import Batmanldb from './components/pages2/Batmanldb';
+
 
 
 
@@ -768,7 +780,19 @@ function App() {
         <Route path='/330070' component={Terraformarsmm} />
         <Route path='/372412' component={Apresa} />
         <Route path='/8944' component={Foradecontrole} />
+        <Route path='/63699' component={Federal} />
+        <Route path='/339877' component={Comamorv} />
+        <Route path='/43549' component={Detencao} />
+        <Route path='/309581' component={Lilaee} />
+        <Route path='/sosenhorda' component={Sosenhorda} />
+        <Route path='/537061' component={Stevenu} />
+        <Route path='/11770' component={Kungffc} />
+        <Route path='/44113' component={Homensemfuria} />
+        <Route path='/53172' component={Aocasiaofl} />
         <Route path='/calculoiv' component={Calculoiv} />
+        <Route path='/818647' component={Atravesdmj} />
+        <Route path='/736073' component={Batmanldb} />
+        
        
   
 

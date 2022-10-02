@@ -9,15 +9,15 @@ import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  
-class Teste extends Component {
+class Kungffc extends Component {
     
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401664579234125544867216644928341224982397brXerbwzJWJPMiiVacNo-Q&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+            src: "https://video.wixstatic.com/video/e16db6_d96867a5fe1d4cd4b3d23abdb2dab038/720p/mp4/file.mp4",
             crossorigin: "anonymous",
 
-            poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Logotipo_da_Rede_Liberal.png/200px-Logotipo_da_Rede_Liberal.png"
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/orjYuozLmwO7aQ6ffskahhbSiCH.jpg"
         }
     }
  
@@ -93,4 +93,4 @@ class Teste extends Component {
         );
     }
 }
-export default Teste;
+export default Kungffc;

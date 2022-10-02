@@ -9,15 +9,15 @@ import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  
-class Teste extends Component {
+class Lilaee extends Component {
     
     player = {}
     state = {
         video: {
-            src: "https://live-lib-pa-02.video.globo.com/d/s/hls-globo-bel/playlist.m3u8?h=0401664579234125544867216644928341224982397brXerbwzJWJPMiiVacNo-Q&k=html5&a=F&u=86b5c605-29bd-49ee-94fd-38157902dfa7",
+            src: "https://cdnapisec.kaltura.com/p/513551/sp/51355100/playManifest/entryId/1_f28qkdpz/format/applehttp/protocol/https/flavorIds/1_770bzyx5,1_6x8ebjh5,1_74ssoqhv,1_ram59i2g,1_1dasc6j5,1_t0kr4bn6,1_925cs26s/preferredBitrate/1500/maxBitrate/10000/a.m3u8?timestamp=1664136063&id=2442&ip=167.249.209.236&override_expiration=1500&sign=ax3tOfLSWtSI%2FT6dPlI50x7%2B8Wqoq6Gk02kGkMQOvdY%3D&playSessionId=1313bca0-eac9-be38-abd6-eb35331d7d80:9be0af97-d67b-2938-fe80-70b2adbfcfce&referrer=aHR0cHM6Ly93d3cucnVudGltZS50di9wdC1ici9mZWF0dXJlL2xpbGEtYW5kLWV2ZQ==&clientTag=html5:v7.52",
             crossorigin: "anonymous",
 
-            poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Logotipo_da_Rede_Liberal.png/200px-Logotipo_da_Rede_Liberal.png"
+            poster: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/73tu1VZq4e7TBjqANJhtWSCbz74.jpg"
         }
     }
  
@@ -93,4 +93,4 @@ class Teste extends Component {
         );
     }
 }
-export default Teste;
+export default Lilaee;
