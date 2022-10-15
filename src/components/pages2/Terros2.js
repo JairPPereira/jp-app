@@ -5,14 +5,14 @@ import Button from 'react-bootstrap/Button';
 
 
 
-function Terror() {
+function Terror2() {
 
   const imagePath = 'https://image.tmdb.org/t/p/w500/'
 
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
-    fetch(`https://api.themoviedb.org/4/list/8212904?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    fetch(`https://api.themoviedb.org/4/list/8220416?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
     .then(response => response.json())
     .then(data => {
       setMovies(data.results)
@@ -39,12 +39,19 @@ function Terror() {
      <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
 
-  <Link to="/terror2"><Button variant="primary" size="lg" width="80%">
-          Proxima pagina
+  <Link to="/terror"><Button variant="primary" size="lg" width="80%">
+         Anterior
         </Button></Link>
-</div></center>
+</div>
+<div class="btn-group" role="group" aria-label="Exemplo básico">
+
+  <Link to="/terror2"><Button variant="primary" size="lg" width="80%">
+          Proxima
+        </Button></Link>
+</div>
+</center>
     </Container>
   );
 }
 
-export default Terror;
+export default Terror2;
