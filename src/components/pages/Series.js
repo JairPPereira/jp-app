@@ -65,6 +65,18 @@ export default function Series() {
       </Card.Body>
     </Card></center>
 
+    <center>
+    <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/m7tG5E1EbywuwTsl6hq990So0Bx.jpg" />
+      <Card.Body>
+        <Card.Title>Cobra Kai (2018)</Card.Title>
+        <Link to="./Cobrakai"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
 
     <center>
           <p></p>
@@ -73,6 +85,18 @@ export default function Series() {
       <Card.Body>
         <Card.Title>Game of Thrones (2011)</Card.Title>
         <Link to="./Seriegot"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eO0QV5qJaEngP1Ax9w3eV6bJG2f.jpg" />
+      <Card.Body>
+        <Card.Title>Halo (2022)</Card.Title>
+        <Link to="./Halo"><Button variant="primary" size="lg" width="100%">
       Assistir
         </Button></Link>
       </Card.Body>
@@ -117,6 +141,18 @@ export default function Series() {
     <center>
           <p></p>
       <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/i0uajcHH9yogXMfDHpOXexIukG9.jpg" />
+      <Card.Body>
+        <Card.Title>Peaky Blinders: Sangue, Apostas e Navalhas (2013)</Card.Title>
+        <Link to="./Peakb"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qx3SJlAp2RK656TusqKx1qEqVMW.jpg" />
       <Card.Body>
         <Card.Title>Power Rangers (1993)</Card.Title>
@@ -126,6 +162,17 @@ export default function Series() {
       </Card.Body>
     </Card></center>
 
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lKDIhc9FQibDiBQ57n3ELfZCyZg.jpg" />
+      <Card.Body>
+        <Card.Title>See (2019)</Card.Title>
+        <Link to="./See"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
     <center>
           <p></p>
       <Card style={{ width: '18rem' }}>
@@ -187,6 +234,33 @@ export default function Series() {
         </Button></Link>
       </Card.Body>
     </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8hYvZ0EoFoOK2gkEZgFe57vQpGq.jpg" />
+      <Card.Body>
+        <Card.Title>Superman e Lois (2021)</Card.Title>
+
+        <Link to="./Supermel"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/izIMqapegdEZj0YVDyFATPR8adh.jpg" />
+      <Card.Body>
+        <Card.Title>Vikings: Valhalla</Card.Title>
+
+        <Link to="./Vikingsv"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
+
 
    
 

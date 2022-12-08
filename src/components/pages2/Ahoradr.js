@@ -8,17 +8,16 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
  
-class Cartasdua extends Component {
+class Ahoradr extends Component {
     
     player = {}
     state = {
         video: {
-            src: "https://play.prod.gcp.vix.services/lettlers-from-a-killer_pt/lettlers-from-a-killer_pt_1-1/play_v1_hls_540p.m3u8",
+            src: "https://siloh.pluto.tv/123_Lionsgate/clip/5fb5981de15408001396821f_Waiting_BR/720pDRM/20220810_052109/hls/0-end/master.m3u8",
             crossorigin: "anonymous",
 
-            poster: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/kTb3HEPcBQAFXeQF4n87mEf8p6P.jpg"
+            poster: "https://www.themoviedb.org/t/p/w500_and_h282_face/b37X97PCSxcl39CI2pzfVfmsAnV.jpg"
         }
     }
  
@@ -94,4 +93,4 @@ class Cartasdua extends Component {
         );
     }
 }
-export default Cartasdua;
+export default Ahoradr;

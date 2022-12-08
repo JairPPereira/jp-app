@@ -8,17 +8,16 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
  
-class Cartasdua extends Component {
+class Homemcws extends Component {
     
     player = {}
     state = {
         video: {
-            src: "https://play.prod.gcp.vix.services/lettlers-from-a-killer_pt/lettlers-from-a-killer_pt_1-1/play_v1_hls_540p.m3u8",
+            src: "https://cdnapisec.kaltura.com/p/513551/sp/51355100/playManifest/entryId/1_1370ln3s/format/applehttp/protocol/https/flavorIds/1_y9dzo7h3,1_m5kmx00m,1_y2an3cxq,1_odkru8vp,1_0t3w689n,1_6x60hls8,1_fjty4ax2/preferredBitrate/1500/maxBitrate/10000/a.m3u8?timestamp=1669768089&id=3194&ip=167.249.209.218&override_expiration=1500&sign=qr%2BSldjeP6i2sLhpN8RR3UB7DSm89zh5nPPqOoBQzOU%3D&playSessionId=f74ca79f-10a2-57e9-a78a-fc8104782ffc:46dcf419-6790-c7a1-d890-6252e4826d8f&referrer=aHR0cHM6Ly93d3cucnVudGltZS50di9wdC1ici9mZWF0dXJlL2hvbWVtLWNvbnRyYS13YWxsLXN0cmVldA==&clientTag=html5:v7.55",
             crossorigin: "anonymous",
 
-            poster: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/kTb3HEPcBQAFXeQF4n87mEf8p6P.jpg"
+            poster: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/13aAN3iqwiYQ8TAKUCDgHl1DNxU.jpg"
         }
     }
  
@@ -94,4 +93,4 @@ class Cartasdua extends Component {
         );
     }
 }
-export default Cartasdua;
+export default Homemcws;
