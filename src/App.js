@@ -438,6 +438,11 @@ import Supermel from './components/pages2/Supermel';
 import Cobrakai from './components/pages2/Cobrakai';
 import See from './components/pages2/See';
 import Peakb from './components/pages2/Peakb';
+import Falcaosu from './components/pages2/Falcaosu';
+import Inventandoa from './components/pages2/Inventandoa';
+import Valedes from './components/pages2/Valedes';
+import Umtirams from './components/pages2/Umtirams';
+import Gaviaoa from './components/pages2/Gaviaoa';
 
 
 
@@ -894,6 +899,13 @@ function App() {
         <Route path='/cobrakai' component={Cobrakai} />
         <Route path='/see' component={See} />
         <Route path='/peakb' component={Peakb} />
+        <Route path='/falcaosu' component={Falcaosu} />
+        <Route path='/inventandoa' component={Inventandoa} />
+        <Route path='/valedes' component={Valedes} />
+        <Route path='/11001' component={Umtirams} />
+        <Route path='/gaviaoa' component={Gaviaoa} />
+
+       
 
        
 

@@ -4,15 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-
-
-
-
-
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Cavaleirodalua() {
+export default function Gaviaoa() {
   return (
     <div>
           <p><br /></p>
@@ -20,33 +15,36 @@ export default function Cavaleirodalua() {
             <Row>
               <Col>
       <iframe
-        src="https://embedflix.net/serie/tt10234724"
+        src="https://embedflix.net/serie/tt10160804"
         target="_blank"
         scrolling="no"
         data-draggable="none"
         marginwidth="0"
         marginheight="0"
         data-popup="none" 
-        poster="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/io3E2yxKctv6D4J4LyBJtRfUYFp.jpg"
+        poster="https://www.themoviedb.org/t/p/w500_and_h282_face/iXCuYBDEMX22Wpwx3whhOidLfJI.jpg"
         frameborder="0"
         width="100%" height="600px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
         title="video"
       />{" "}
       </Col></Row></Container>
-   
+                  <div className="nave">
+     
                   <p><br /></p>
-<center>
+
 <Link to="/"><Button variant="primary" size="lg" width="80%">
 Home
-  </Button></Link></center>
+  </Button></Link>
 
 <p><br /></p>
 </div>
-</div>
+</div></div>
 
-);
+  );
 }
+
+
 
 
 
