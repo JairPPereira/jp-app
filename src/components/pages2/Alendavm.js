@@ -4,22 +4,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Buffyacv() {
+export default function Alendavm() {
   return (
     <div>
-   
           <p><br /></p>
           <div><Container fluid>
-  
             <Row>
               <Col>
       <iframe
-        src="https://embed.warezcdn.net/serie/tt0118276"
-        target="https://embed.warezcdn.net/serie/tt0118276"
+        src="https://embedflix.net/serie/tt11247158"
+        target="_blank"
         scrolling="no"
         data-draggable="none"
         marginwidth="0"

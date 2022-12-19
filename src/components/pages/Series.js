@@ -29,6 +29,18 @@ export default function Series() {
         </Button></Link>
       </Card.Body>
     </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4fqfhmVNOHe2nLcligiVMtMnfeM.jpg" />
+      <Card.Body>
+        <Card.Title>A Lenda de Vox Machina (2022)</Card.Title>
+        <Link to="./Alendavm"><Button variant="primary" size="lg" width="100%">
+      Assistir
+        </Button></Link>
+      </Card.Body>
+    </Card></center>
        
     <center>
           <p></p>
@@ -296,6 +308,19 @@ export default function Series() {
         <Link to="./Valedes"><Button variant="primary" size="lg" width="100%">
       Assistir
         </Button></Link>
+      </Card.Body>
+    </Card></center>
+
+    <center>
+          <p></p>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cm5xwxoWl2ZWuCKzwa0umHHsbmI.jpg" />
+      <Card.Body>
+        <Card.Title>WandaVision (2021)</Card.Title>
+        <a href="https://jppfilmes.pages.dev/series/wandav/"><Button variant="primary" size="lg" width="100%"><p1>Assistir</p1>
+        
+     </Button></a>
+        
       </Card.Body>
     </Card></center>
 

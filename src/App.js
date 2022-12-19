@@ -443,6 +443,14 @@ import Inventandoa from './components/pages2/Inventandoa';
 import Valedes from './components/pages2/Valedes';
 import Umtirams from './components/pages2/Umtirams';
 import Gaviaoa from './components/pages2/Gaviaoa';
+import Alendavm from './components/pages2/Alendavm';
+import Presentegrego from './components/pages2/Presentegrego';
+import Pontodeencontro from './components/pages2/Pontodeencontro';
+import Cacadaaop from './components/pages2/cacadaaop';
+import Foradecontrole2 from './components/pages2/Foradecontrole2';
+import Evidenciasdc from './components/pages2/Evidenciasdc';
+import Kite from './components/pages2/Kite';
+import Aslinhastdd from './components/pages2/Aslinhastdd';
 
 
 
@@ -904,6 +912,14 @@ function App() {
         <Route path='/valedes' component={Valedes} />
         <Route path='/11001' component={Umtirams} />
         <Route path='/gaviaoa' component={Gaviaoa} />
+        <Route path='/alendavm' component={Alendavm} />
+        <Route path='/11215' component={Presentegrego} />
+        <Route path='/27845' component={Pontodeencontro} />
+        <Route path='/230179' component={Cacadaaop} />
+        <Route path='/1537' component={Foradecontrole2} />
+        <Route path='/13252' component={Evidenciasdc} />
+        <Route path='/192712' component={Kite} />
+        <Route path='/890980' component={Aslinhastdd} />
 
        
 
