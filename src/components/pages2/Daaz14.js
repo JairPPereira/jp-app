@@ -4,14 +4,14 @@ import { Container, Movie, MovieList } from './styles';
 import Button from 'react-bootstrap/Button';
 
 
-function Ficcao() {
+function Daaz14() {
 
   const imagePath = 'https://image.tmdb.org/t/p/w500/'
 
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
-    fetch(`https://api.themoviedb.org/4/list/8212911?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    fetch(`https://api.themoviedb.org/4/list/8233101?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
     .then(response => response.json())
     .then(data => {
       setMovies(data.results)
@@ -35,15 +35,19 @@ function Ficcao() {
         )
       })}
       </MovieList>
-     <center>
+ 
+        <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
-
-  <Link to="/ficcao2"><Button variant="primary" size="lg" width="80%">
-          Proxima pagina
+        <Link to="/daaz13"><Button variant="primary" size="lg" width="80%">
+          Anterior
+        </Button></Link>
+ 
+  <Link to="/daaz"><Button variant="primary" size="lg" width="80%">
+          Proxima
         </Button></Link>
 </div></center>
     </Container>
   );
 }
 
-export default Ficcao;
+export default Daaz14;

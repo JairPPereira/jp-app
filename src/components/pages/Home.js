@@ -11,7 +11,7 @@ function Daaz10() {
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
-    fetch(`https://api.themoviedb.org/4/list/8215420?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
+    fetch(`https://api.themoviedb.org/4/list/8218387?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
     .then(response => response.json())
     .then(data => {
       setMovies(data.results)
@@ -38,11 +38,11 @@ function Daaz10() {
  
         <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
-        <Link to="/daaz9"><Button variant="primary" size="lg" width="80%">
+        <Link to="/daaz10"><Button variant="primary" size="lg" width="80%">
           Anterior
         </Button></Link>
  
-  <Link to="/daaz11"><Button variant="primary" size="lg" width="80%">
+  <Link to="/daaz12"><Button variant="primary" size="lg" width="80%">
           Proxima
         </Button></Link>
 </div></center>
