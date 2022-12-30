@@ -471,6 +471,13 @@ import Foradorumo from './components/pages2/Foradorumo';
 import Bilhetedefuga from './components/pages2/Bilhetedefuga';
 import Bandnewfm from './components/pages2/Bandnewfm';
 import Bmcnews from './components/pages2/Bmcnews';
+import Musica from './components/pages2/Musica';
+import Gracinha from './components/pages2/Gracinha';
+import Opoderosoc from './components/pages2/Opoderosoc';
+import Batmanct from './components/pages2/Batmanct';
+import Peleo from './components/pages2/Peleo';
+import Otremdamorte from './components/pages2/Otremdamorte';
+import Flordelizqa from './components/pages2/Flordelizqa';
 
 
 
@@ -962,6 +969,13 @@ function App() {
         <Route path='/747803' component={Bilhetedefuga} />
         <Route path='/bandnewfm' component={Bandnewfm} />
         <Route path='/bmcnews' component={Bmcnews} />
+        <Route path='/musica' component={Musica} />
+        <Route path='/893656' component={Gracinha} />
+        <Route path='/238' component={Opoderosoc} />
+        <Route path='/155' component={Batmanct} />
+        <Route path='/742408' component={Peleo} />
+        <Route path='/20435' component={Otremdamorte} />
+        <Route path='/flordelizqa' component={Flordelizqa} />
        
         
 
