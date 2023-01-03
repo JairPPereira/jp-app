@@ -483,6 +483,14 @@ import OpoderosocII from './components/pages2/OpoderosocII';
 import Umsonhodeliberdade from './components/pages2/Umsonhodeliberdade';
 import Osenhordaaor from './components/pages2/Osenhordaaor';
 import Aviagemdchi from './components/pages2/Aviagemdchi';
+import Snowdenht from './components/pages2/Snowdenht';
+import Wandinha from './components/pages2/Wandinha';
+import Operacaom from './components/pages2/Operacaom';
+import Dozehus from './components/pages2/Dozehus';
+import Daaz15 from './components/pages2/Daaz15';
+import Pearlh from './components/pages2/Pearlh';
+import Diariojb from './components/pages2/Diariojb';
+import Comedia3 from './components/pages2/Comedia3';
 
 
 
@@ -987,7 +995,14 @@ function App() {
         <Route path='/278' component={Umsonhodeliberdade} />
         <Route path='/122' component={Osenhordaaor} />
         <Route path='/129' component={Aviagemdchi} />
-       
+        <Route path='/302401' component={Snowdenht} />
+        <Route path='/wandinha' component={Wandinha} />
+        <Route path='/415214' component={Operacaom} />
+        <Route path='/389' component={Dozehus} />
+        <Route path='/daaz15' component={Daaz15} />
+        <Route path='/676' component={Pearlh} />
+        <Route path='/comedia3' component={Comedia3} />
+        <Route path='/23514' component={Diariojb} />
         
 
         
