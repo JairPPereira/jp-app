@@ -12,7 +12,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Cavaleirodalua() {
+export default function Comoeuera() {
   return (
     <div>
           <p><br /></p>
@@ -20,14 +20,14 @@ export default function Cavaleirodalua() {
             <Row>
               <Col>
       <Iframe
-        src="https://embedflix.net/serie/tt10234724"
+        src="https://embedder.net/e/movie?imdb=tt2674426"
         target="_blank"
         scrolling="no"
         data-draggable="none"
         marginwidth="0"
         marginheight="0"
         data-popup="none" 
-        poster="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/io3E2yxKctv6D4J4LyBJtRfUYFp.jpg"
+        poster=""
         frameborder="0"
         width="100%" height="600px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
