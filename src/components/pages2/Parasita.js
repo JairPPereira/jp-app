@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Familiasop() {
+export default function Parasita() {
   return (
     <div>
           <p><br /></p>
@@ -15,17 +15,19 @@ export default function Familiasop() {
             <Row>
               <Col>
       <Iframe
-        src="https://embed.warezcdn.net/serie/tt0141842"
-        target="https://embed.warezcdn.net/serie/tt0141842"
+        src="https://embedflix.net/filme/tt6751668"
+        target="_blank"
         scrolling="no"
+        title="Video"
         data-draggable="none"
         marginwidth="0"
         marginheight="0"
         data-popup="none" 
+        display="initial"
         frameborder="0"
-        width="100%" height="600px"
+        overflow="no"
+        width="100%" height="640px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
-        title="video"
       />{" "}
       </Col></Row></Container>
                   <div className="nave">
