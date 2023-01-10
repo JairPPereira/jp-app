@@ -501,6 +501,15 @@ import Flordelisenm from './components/pages2/Flordelisenm';
 import Pulpfiction from './components/pages2/Pulpfiction';
 import Sporttv4 from './components/pages2/Sporttv4';
 import Treshomensc from './components/pages2/treshomensc';
+import Faroeste from './components/pages2/Faroeste';
+import Osbonsc from './components/pages2/Osbonsc';
+import Cinemap from './components/pages2/Cinemap';
+import Avidaebela from './components/pages2/Avidaebela';
+import Psicose from './components/pages2/Psicose';
+import Clubedaluta from './components/pages2/Clubedaluta';
+import Garotas2 from './components/pages2/Garotas2';
+import Cidadededeus from './components/pages2/Cidadededeus';
+import Forrestg from './components/pages2/Forrestg';
 
 
 
@@ -543,6 +552,7 @@ function App() {
         <Route path='/11041' component={Afamiliab} />
         <Route path='/11162' component={Omercadordv} />
         <Route path='/11215' component={Presentegrego} />
+        <Route path='/11216' component={Cinemap} />
         <Route path='/112205' component={Afamilia} />
         <Route path='/11327' component={Expressomn} />
         <Route path='/114' component={Umalindamulher} />
@@ -559,6 +569,7 @@ function App() {
         <Route path='/12685' component={Bloodrayne3} />
         <Route path='/127770' component={Apostolopauc} />
         <Route path='/129' component={Aviagemdchi} />
+        <Route path='/13' component={Forrestg} />
         <Route path='/13053' component={Boltsc} />
         <Route path='/131631' component={Jogosve1} />
         <Route path='/131634' component={Jogosvef} />
@@ -724,7 +735,9 @@ function App() {
         <Route path='/53172' component={Aocasiaofl} />
         <Route path='/535' component={Flashdance} />
         <Route path='/537061' component={Stevenu} />
+        <Route path='/539' component={Psicose} />
         <Route path='/540291' component={Amaldicaodi} />
+        <Route path='/550' component={Clubedaluta} />
         <Route path='/55101' component={Oculpado} />
         <Route path='/556018' component={Kv1} />
         <Route path='/557' component={Homemaranha} />
@@ -734,6 +747,7 @@ function App() {
         <Route path='/579872' component={Aviuvads} />
         <Route path='/58448' component={Nocaute} />
         <Route path='/589157' component={Linewalker2} />
+        <Route path='/598' component={Cidadededeus} />
         <Route path='/60420' component={Loucamenteapaixonados} />
         <Route path='/61037' component={Campeoesdos} />
         <Route path='/611207' component={Umpassadodepresente} />
@@ -744,6 +758,7 @@ function App() {
         <Route path='/63' component={Osdozemacacos} />
         <Route path='/631843' component={Tempo} />
         <Route path='/63699' component={Federal} />
+        <Route path='/637' component={Avidaebela} />
         <Route path='/644495' component={Casag} />
         <Route path='/64689' component={Ohomemdamafia} />
         <Route path='/653024' component={Ocomitedd} />
@@ -782,6 +797,7 @@ function App() {
         <Route path='/76600' component={Avataroca} />
         <Route path='/766507' component={Opredadora} />
         <Route path='/769749' component={Fundingyou} />
+        <Route path='/769' component={Osbonsc} />
         <Route path='/770428' component={Emnomedopai} />
         <Route path='/77067' component={Amorzumbi} />
         <Route path='/774752' component={Guardioesg} />
@@ -802,6 +818,7 @@ function App() {
         <Route path='/829557' component={Diashoje} />
         <Route path='/835666' component={Comohsc} />
         <Route path='/839440' component={Hoteldosdinossauros} />
+        <Route path='/851644' component={Garotas2} />
         <Route path='/852592' component={Centauro} />
         <Route path='/853666' component={Jesuskid} />
         <Route path='/858815' component={Asfotosv} />
@@ -890,6 +907,7 @@ function App() {
         <Route path='/espn3' component={Espn3} />
         <Route path='/euronews' component={Euronews} />
         <Route path='/falcaosu' component={Falcaosu} />
+        <Route path='/faroeste' component={Faroeste} />
         <Route path='/familiasop' component={Familiasop} />
         <Route path='/fantasia' component={Fantasia} />
         <Route path='/ficcao' component={Ficcao} />
