@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Amityvilleot() {
+export default function Osenhordadt() {
   return (
     <div>
           <p><br /></p>
@@ -15,7 +15,7 @@ export default function Amityvilleot() {
             <Row>
               <Col>
       <Iframe
-        src="https://ok.ru/videoembed/910865795703"
+        src="https://embedder.net/e/movie?imdb=tt0167261"
         target="_blank"
         scrolling="no"
         data-draggable="none"
