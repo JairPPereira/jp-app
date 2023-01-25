@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Aeradogelo2() {
+export default function Oresgater() {
   return (
     <div>
           <p><br /></p>
@@ -15,7 +15,7 @@ export default function Aeradogelo2() {
             <Row>
               <Col>
       <Iframe
-        src="https://embedflix.net/filme/tt0438097"
+        src="https://embedder.net/e/movie?imdb=tt0120815"
         target="_blank"
         scrolling="no"
         data-draggable="none"

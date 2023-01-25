@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Aeradogelo2() {
+export default function Osilenciodi() {
   return (
     <div>
           <p><br /></p>
@@ -15,7 +15,7 @@ export default function Aeradogelo2() {
             <Row>
               <Col>
       <Iframe
-        src="https://embedflix.net/filme/tt0438097"
+        src="https://ok.ru/videoembed/4228401007253"
         target="_blank"
         scrolling="no"
         data-draggable="none"

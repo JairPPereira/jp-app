@@ -41,7 +41,7 @@ function Drama3() {
           Pagina anterior
         </Button></Link>
  
-  <Link to="/drama"><Button variant="primary" size="lg" width="80%">
+  <Link to="/drama4"><Button variant="primary" size="lg" width="80%">
           Proxima pagina
         </Button></Link>
 </div></center>
