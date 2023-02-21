@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Panteranwps() {
+export default function Acriada() {
   return (
     <div>
           <p><br /></p>
@@ -15,7 +15,7 @@ export default function Panteranwps() {
             <Row>
               <Col>
       <Iframe
-        src="https://voe.sx/e/4pwbxleoqzwr"
+        src="https://embed.playmp4.net/?filme=290098"
         target="_blank"
         scrolling="no"
         data-draggable="none"

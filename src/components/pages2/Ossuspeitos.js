@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Panteranwps() {
+export default function Ossuspeitos() {
   return (
     <div>
           <p><br /></p>
@@ -15,7 +15,7 @@ export default function Panteranwps() {
             <Row>
               <Col>
       <Iframe
-        src="https://voe.sx/e/4pwbxleoqzwr"
+        src="https://ok.ru/videoembed/27321043603"
         target="_blank"
         scrolling="no"
         data-draggable="none"

@@ -38,7 +38,7 @@ function Crime() {
      <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
 
-  <Link to="/crime"><Button variant="primary" size="lg" width="80%">
+  <Link to="/crime2"><Button variant="primary" size="lg" width="80%">
           Proxima pagina
         </Button></Link>
 </div></center>

@@ -4,10 +4,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Iframe from 'react-iframe'
+
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Panteranwps() {
+export default function Vaeveja() {
   return (
     <div>
           <p><br /></p>
@@ -15,7 +16,7 @@ export default function Panteranwps() {
             <Row>
               <Col>
       <Iframe
-        src="https://voe.sx/e/4pwbxleoqzwr"
+        src="https://ok.ru/videoembed/2300969290347"
         target="_blank"
         scrolling="no"
         data-draggable="none"
@@ -26,7 +27,7 @@ export default function Panteranwps() {
         width="100%" height="600px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
         title="video"
-      />{" "}
+      ></Iframe>{" "}
       </Col></Row></Container>
                   <div className="nave">
      
