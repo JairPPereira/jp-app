@@ -35,11 +35,14 @@ function Romance() {
         )
       })}
       </MovieList>
-     <center>
+      <center>
         <div class="btn-group" role="group" aria-label="Exemplo básico">
-
-  <Link to="/romance"><Button variant="primary" size="lg" width="80%">
-          Proxima pagina
+        <Link to="/romance2"><Button variant="primary" size="lg" width="80%">
+          Anterior
+        </Button></Link>
+ 
+  <Link to="/romance2"><Button variant="primary" size="lg" width="80%">
+          Proxima
         </Button></Link>
 </div></center>
     </Container>

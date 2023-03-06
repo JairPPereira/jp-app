@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Melancolia() {
+export default function Togo() {
   return (
     <div>
           <p><br /></p>
@@ -15,7 +15,7 @@ export default function Melancolia() {
             <Row>
               <Col>
       <Iframe
-        src="https://ok.ru/videoembed/1876916308555"
+        src="https://sbbrisk.com/e/65wrywp8jtwo.html"
         target="_blank"
         scrolling="no"
         data-draggable="none"
