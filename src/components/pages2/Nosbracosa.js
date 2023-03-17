@@ -4,10 +4,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Iframe from 'react-iframe'
+
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Yourname() {
+export default function Nosbracosa() {
   return (
     <div>
           <p><br /></p>
@@ -15,19 +16,17 @@ export default function Yourname() {
             <Row>
               <Col>
       <Iframe
-        src="https://sbbrisk.com/e/4n3fji15vk7w.html"
+        src="https://ok.ru/videoembed/5353362491954"
         target="_blank"
         scrolling="no"
-        title="Video"
         data-draggable="none"
         marginwidth="0"
         marginheight="0"
         data-popup="none" 
-        display="initial"
         frameborder="0"
-        overflow="no"
-        width="100%" height="640px"
+        width="100%" height="600px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
+        title="video"
       />{" "}
       </Col></Row></Container>
                   <div className="nave">

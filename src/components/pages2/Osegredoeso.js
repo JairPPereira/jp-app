@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Yourname() {
+export default function Osegredoeso() {
   return (
     <div>
           <p><br /></p>
@@ -15,19 +15,17 @@ export default function Yourname() {
             <Row>
               <Col>
       <Iframe
-        src="https://sbbrisk.com/e/4n3fji15vk7w.html"
+        src="https://ok.ru/videoembed/40581728882"
         target="_blank"
         scrolling="no"
-        title="Video"
         data-draggable="none"
         marginwidth="0"
         marginheight="0"
         data-popup="none" 
-        display="initial"
         frameborder="0"
-        overflow="no"
-        width="100%" height="640px"
+        width="100%" height="600px"
         allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
+        title="video"
       />{" "}
       </Col></Row></Container>
                   <div className="nave">
