@@ -15,7 +15,7 @@ export default function Bandnews2() {
             <Row>
               <Col>
       <Iframe 
-        src="https://play.tv0800.xyz/adm/v.php?id=bandnews"
+        src="https://tv.appmj.xyz/tv.php?canal=band-news"
         target="_blank"
         scrolling="no"
         data-draggable="none"
@@ -37,6 +37,10 @@ Opção 1
 
   <Link to="/Bandnews2"><Button variant="primary" size="lg" width="80%">
 Opção 2
+  </Button></Link>
+
+  <Link to="/Bandnews3"><Button variant="primary" size="lg" width="80%">
+Opção 3
   </Button></Link>
 
 

@@ -15,7 +15,7 @@ export default function Bandnews() {
             <Row>
               <Col>
       <Iframe 
-        src="https://embed.tyflex.site/v.php?id=bandnews"
+        src="https://embedflix.net/tv/bandnews"
         target="_blank"
         scrolling="no"
         data-draggable="none"
@@ -38,6 +38,10 @@ Opção 1
 
   <Link to="/Bandnews2"><Button variant="primary" size="lg" width="80%">
 Opção 2
+  </Button></Link>
+
+  <Link to="/Bandnews3"><Button variant="primary" size="lg" width="80%">
+Opção 3
   </Button></Link>
 
 <p><br /></p>

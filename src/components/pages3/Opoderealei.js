@@ -9,15 +9,15 @@ import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  
-class Teste extends Component {
+class Opoderealei extends Component {
     
     player = {}
     state = {
         video: {
-            src: "http://hidra.live:80/Diego/Diego/304094",
+            src: "https://play.prod.gcp.vix.services/lincoln-lawyer_pt/lincoln-lawyer_pt_1-1/play_v1_hls_540p.m3u8",
             crossorigin: "anonymous",
 
-            poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/Logotipo_da_Rede_Liberal.png/200px-Logotipo_da_Rede_Liberal.png"
+            poster: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/j9QaQVuyQIEwckUbjHpAgA7E4jJ.jpg"
         }
     }
  
@@ -93,4 +93,4 @@ class Teste extends Component {
         );
     }
 }
-export default Teste;
+export default Opoderealei;

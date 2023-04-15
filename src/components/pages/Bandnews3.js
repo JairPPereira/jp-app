@@ -7,15 +7,15 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Djangolivre() {
+export default function Bandnews3() {
   return (
     <div>
           <p><br /></p>
           <div><Container fluid>
             <Row>
               <Col>
-      <Iframe
-        src="https://embed.warezcdn.net/filme/tt1853728"
+      <Iframe 
+        src="https://player.aovivotv.xyz/channels/bandnews/external"
         target="_blank"
         scrolling="no"
         data-draggable="none"
@@ -31,6 +31,25 @@ export default function Djangolivre() {
                   <div className="nave">
      
                   <p><br /></p>
+                  <Link to="/Bandnews"><Button variant="primary" size="lg" width="80%">
+Opção 1
+  </Button></Link>
+
+  <Link to="/Bandnews2"><Button variant="primary" size="lg" width="80%">
+Opção 2
+  </Button></Link>
+
+  <Link to="/Bandnews3"><Button variant="primary" size="lg" width="80%">
+Opção 3
+  </Button></Link>
+
+
+<p><br /></p>
+</div>
+
+<div className="nave">
+     
+                  <p><br /></p>
 
 <Link to="/"><Button variant="primary" size="lg" width="80%">
 Home
@@ -39,6 +58,8 @@ Home
 <p><br /></p>
 </div>
 </div></div>
+
+
 
   );
 }

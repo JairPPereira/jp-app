@@ -7,7 +7,7 @@ import Iframe from 'react-iframe'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Djangolivre() {
+export default function Farofagk() {
   return (
     <div>
           <p><br /></p>
@@ -15,7 +15,7 @@ export default function Djangolivre() {
             <Row>
               <Col>
       <Iframe
-        src="https://embed.warezcdn.net/filme/tt1853728"
+        src="https://sbbrisk.com/e/h7zys1mbykcs.html"
         target="_blank"
         scrolling="no"
         data-draggable="none"
