@@ -504,6 +504,20 @@ import Nadadnf from './components/pages/Nadadnf';
 import Osbansheesi from './components/pages/Osbansheesi';
 import Violete from './components/pages/Violete';
 import Upaa from './components/pages/Upaa';
+import Narvik from './components/pages/Narvik';
+import Junge from './components/pages/Junge';
+import Caesdeal from './components/pages/Caesdeal';
+import Noitein from './components/pages/Noitein';
+import Setemum from './components/pages/Setemum';
+import Halo4 from './components/pages/Halo4';
+import Oinfernodg from './components/pages/Oinfernodg';
+import Regra34 from './components/pages/Regra34';
+import Umanji from './components/pages/Umanji';
+import Matildaom from './components/pages/Matildaom';
+import Aluzdm from './components/pages/Aluzdm';
+import Peterpw from './components/pages/Peterpw';
+import Umanmr from './components/pages/Umanmr';
+import Ataquedc from './components/pages/Ataquedc';
 
 
 
@@ -543,6 +557,7 @@ function App() {
         <Route path='/105' component={Devoltapf} />
         <Route path='/10534' component={Tormenta} />
         <Route path='/1061671' component={Pamelaa} />
+        <Route path='/1065796' component={Umanji} />
         <Route path='/106646' component={Olobodw} />
         <Route path='/10681' component={Walle} />
         <Route path='/1072567' component={Inviesto} />
@@ -671,6 +686,7 @@ function App() {
         <Route path='/411088' component={Umcontratempo} />
         <Route path='/414906' component={Batman} />
         <Route path='/415214' component={Operacaom} />
+        <Route path='/420808' component={Peterpw} />
         <Route path='/422821' component={Oprecodg} />
         <Route path='/424' component={Alistads} />
         <Route path='/429' component={Treshomensc} />
@@ -697,6 +713,7 @@ function App() {
         <Route path='/495386' component={Entreoamoreafama} />
         <Route path='/496243' component={Parasita} />
         <Route path='/497' component={Aesperadum} />
+        <Route path='/500' component={Caesdeal} />
         <Route path='/50014' component={Historiasc} />
         <Route path='/50348' component={Opoderealei} />
         <Route path='/504198' component={Terrorns} />
@@ -716,12 +733,14 @@ function App() {
         <Route path='/550776' component={Acrediteemmim} />
         <Route path='/55101' component={Oculpado} />
         <Route path='/556018' component={Kv1} />
+        <Route path='/56295' component={Halo4} />
         <Route path='/581' component={Dancacl} />
         <Route path='/58448' component={Nocaute} />
         <Route path='/589157' component={Linewalker2} />
         <Route path='/593643' component={Omenu} />
         <Route path='/598' component={Cidadededeus} />
         <Route path='/600354' component={Meupai} />
+        <Route path='/600583' component={Ataquedc} />
         <Route path='/603' component={Matrix} />
         <Route path='/603692' component={Johnw4} />
         <Route path='/606856' component={Togo} />
@@ -729,6 +748,7 @@ function App() {
         <Route path='/615457' component={Anonimo} />
         <Route path='/615777' component={Babilonia} />
         <Route path='/618344' component={Ligajs} />
+        <Route path='/619930' component={Narvik} />
         <Route path='/62215' component={Melancolia} />
         <Route path='/622585' component={Aslegioese} />
         <Route path='/629' component={Ossuspeitos} />
@@ -744,14 +764,17 @@ function App() {
         <Route path='/652722' component={Nosbracosa} />   
         <Route path='/66113' component={Avitimaperfeita} />
         <Route path='/661374' component={Glassonion} />
+        <Route path='/668482' component={Matildaom} />
         <Route path='/674324' component={Osbansheesi} />
         <Route path='/676' component={Pearlh} />
+        <Route path='/676547' component={Aluzdm} />
         <Route path='/679' component={Alienor} />
         <Route path='/680' component={Pulpfiction} />
         <Route path='/68202' component={Cadeoh} />
         <Route path='/68348' component={Arquiteturadd} />
         <Route path='/68718' component={Djangolivre} />
         <Route path='/687354' component={Stretfp} />
+        <Route path='/696374' component={Oinfernodg} />
         <Route path='/70160' component={Jogosv} />
         <Route path='/703451' component={Nasuacm} />
         <Route path='/707214' component={Ateofinal} />
@@ -770,6 +793,7 @@ function App() {
         <Route path='/742408' component={Peleo} />
         <Route path='/74549' component={Osegredo} />
         <Route path='/747803' component={Bilhetedefuga} />
+        <Route path='/751741' component={Umanmr} />
         <Route path='/758009' component={Casamentoa} />
         <Route path='/759175' component={Aprincesa} />
         <Route path='/76203' component={Dozeanosde} />
@@ -794,6 +818,7 @@ function App() {
         <Route path='/807' component={Sevenscc} />
         <Route path='/814757' component={Imperiodaluz} />
         <Route path='/81488' component={Mamonasps} />
+        <Route path='/843794' component={Junge} />
         <Route path='/85' component={Indianajcd} />
         <Route path='/850871' component={Sayen} />
         <Route path='/851644' component={Garotas2} />
@@ -807,9 +832,11 @@ function App() {
         <Route path='/877269' component={Mundoestranho} />
         <Route path='/877703' component={Teenwolf} />
         <Route path='/881164' component={Oestranguladordb} />
+        <Route path='/890541' component={Setemum} />
         <Route path='/890980' component={Aslinhastdd} />
         <Route path='/893656' component={Gracinha} />
         <Route path='/8944' component={Foradecontrole} />
+        <Route path='/899112' component={Noitein} />
         <Route path='/9003' component={Hellraiser} />
         <Route path='/92321' component={Parafaf} />
         <Route path='/937278' component={Opiorvdm} />
@@ -820,6 +847,7 @@ function App() {
         <Route path='/96933' component={Porquees} />
         <Route path='/98' component={Gladiador} />
         <Route path='/989937' component={Nanatsu1} />
+        <Route path='/997265' component={Regra34} />
         <Route path='/9978' component={Alexrct} />
         <Route path='/acao' component={Acao} />
         <Route path='/acao2' component={Acao2} />
